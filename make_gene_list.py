@@ -38,6 +38,6 @@ if __name__ == "__main__":
     l1 = get_uniprot_oncogenes()
     l2 = get_ncg_oncogenes()
     with open("oncogen_genes.pickle","wb") as f:
-        pickle.dump(l1+l2, f)
+        pickle.dump(list(set(l1+l2)), f)
 
 
