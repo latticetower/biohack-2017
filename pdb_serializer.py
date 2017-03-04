@@ -28,8 +28,10 @@ if __name__ == "__main__":
 	data = pickle.load(open(gene_info_file,"rb"))
 	# data.values() - contains (geneIds, pdbIds)
 	set_pdb = set()
-	for (_, pdbIds) in data.values():
+	for gene_name in data:
+		pdbIds = data[gene_name][1]
 		set_pdb |= set(downloadPDBStructures(pdbIds))
+		print("Processed "+gene_name)
 	# just in case we want to save the results
 
 	with open('set_pdb.pickle', 'wb') as f:
