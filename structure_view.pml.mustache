@@ -1,0 +1,24 @@
+# Best to restart PyMOL every time from fresh
+reinitialize
+cd pictures
+
+load ../pdb/{{pdbid}}.pdb
+hide all
+select oncogene, chain {{onco_chain}} and id {{onco_resnum}}
+show cartoon, oncogene
+color blue, oncogene
+select cys_coords, oncogene and resn cys
+show sticks, cys_coords
+
+select peptide, chain {{peptide_chain}} and id {{peptide}}
+show cartoon, peptide
+color red, peptide
+select pept_coords, peptide and resi {{pept_cys}}
+show lines, pept_coords
+
+
+zoom
+
+bg_color white
+ray
+png {{pdbid}}.png
