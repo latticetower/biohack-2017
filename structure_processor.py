@@ -2,10 +2,10 @@ from bioservices.kegg import KEGG
 k = KEGG()
 
 import pickle
-
+import argparse
 
 ORGANISM = "hsa"
-GENES = ["p53"]
+GENES = ["p53"] # sample gene
 PDB_PATH = "pdb"
 
 import os, prody, pystache
@@ -145,6 +145,10 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
    
 
 def renderTemplate(template, info):
+    """
+    saves pymol script to pictures.
+    if run from current folder, this scripts saves pdb id to file.
+    """
     renderer = pystache.Renderer()
     lines = []
     with open(template, 'r') as k:
@@ -165,7 +169,16 @@ def renderTemplate(template, info):
         for line in lines:
             f.write(line)
     pass
-    
-    
-info = getPairInformation("2OSL", "L", "H")
-renderTemplate("pysmple.pml.mustache", info)
+
+
+
+
+if __name__== "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("pdbid", help="PDBID", type=str)
+    parser.add_argument("oncogene_chain", help="oncogene chain", type=str)
+    parser.add_argument("peptide_chain", help="peptide chain", type=str)
+    args = parser.parse_args()
+    info = getPairInformation(args.pdbid, args.oncogene_chain, args.peptide_chain)
+    #info = getPairInformation("2OSL", "L", "H")
+    renderTemplate("structure_view.pml.mustache", info)
