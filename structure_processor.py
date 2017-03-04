@@ -153,7 +153,7 @@ def iterate_over_objects():
             if chid is None:
                 continue # skip if there is no UniProt
             for (other, interface_info) in get_candidates_for(pdbid, chid):
-                print(other)
+                yield other
             #print(chid)
     
 
@@ -194,19 +194,7 @@ if __name__== "__main__":
     parser.add_argument("oncogene_chain", help="oncogene chain", type=str)
     #parser.add_argument("peptide_chain", help="peptide chain", type=str)
     args = parser.parse_args()
-    iterate_over_pairs(pdbid, oncogene_chain)
-    info = getPairInformation(args.pdbid, args.oncogene_chain, args.peptide_chain)
-    #info = getPairInformation("2OSL", "L", "H")
-    renderTemplate("structure_view.pml.mustache", info)
-
-
-
-if __name__== "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("pdbid", help="PDBID", type=str)
-    parser.add_argument("oncogene_chain", help="oncogene chain", type=str)
-    parser.add_argument("peptide_chain", help="peptide chain", type=str)
-    args = parser.parse_args()
-    info = getPairInformation(args.pdbid, args.oncogene_chain, args.peptide_chain)
-    #info = getPairInformation("2OSL", "L", "H")
-    renderTemplate("structure_view.pml.mustache", info)
+    for other in iterate_over_pairs(pdbid, oncogene_chain):
+        info = getPairInformation(pdbid, oncogene_chain, other)
+        #info = getPairInformation("2OSL", "L", "H")
+        renderTemplate("structure_view.pml.mustache", info)
