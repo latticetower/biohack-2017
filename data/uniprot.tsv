@@ -1,0 +1,573 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+Q5PXS1	LCK_AOTNA	reviewed	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (Proto-oncogene Lck) (p56-LCK)	LCK	Aotus nancymaae (Ma's night monkey)	509
+Q07DV8	MET_AOTNA	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Aotus nancymaae (Ma's night monkey)	1381
+Q00PJ8	MET_ATEAB	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Atelerix albiventris (Middle-African hedgehog) (Four-toed hedgehog)	1382
+Q09YL1	MET_ATEGE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Ateles geoffroyi (Black-handed spider monkey) (Geoffroy's spider monkey)	1381
+Q2TA06	AURKA_BOVIN	reviewed	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A)	AURKA AIK AIRK1 ARK1 AURA AYK1 BTAK IAK1 STK15 STK6	Bos taurus (Bovine)	402
+Q32KX7	BMI1_BOVIN	reviewed	Polycomb complex protein BMI-1 (Polycomb group RING finger protein 4)	BMI1 PCGF4	Bos taurus (Bovine)	326
+Q32KY4	CDK4_BOVIN	reviewed	Cyclin-dependent kinase 4 (EC 2.7.11.22) (Cell division protein kinase 4)	CDK4	Bos taurus (Bovine)	303
+A1A4L6	ETS2_BOVIN	reviewed	Protein C-ets-2	ETS2	Bos taurus (Bovine)	470
+A3KN19	FA83D_BOVIN	reviewed	Protein FAM83D	FAM83D	Bos taurus (Bovine)	581
+Q29RS8	FLI1_BOVIN	reviewed	Friend leukemia integration 1 transcription factor (Proto-oncogene Fli-1)	FLI1	Bos taurus (Bovine)	452
+O77628	FOS_BOVIN	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Bos taurus (Bovine)	380
+P48803	FGF4_BOVIN	reviewed	Fibroblast growth factor 4 (FGF-4) (Heparin secretory-transforming protein) (HST) (Heparin-binding growth factor 4) (HBGF-4)	FGF4 HST	Bos taurus (Bovine)	206
+A0JNB0	FYN_BOVIN	reviewed	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	FYN	Bos taurus (Bovine)	537
+Q2KIJ5	KDSR_BOVIN	reviewed	3-ketodihydrosphingosine reductase (KDS reductase) (EC 1.1.1.102) (3-dehydrosphinganine reductase) (Follicular variant translocation protein 1 homolog) (FVT-1)	KDSR FVT1	Bos taurus (Bovine)	331
+P46200	MYB_BOVIN	reviewed	Transcriptional activator Myb (Proto-oncogene c-Myb)	MYB	Bos taurus (Bovine)	640
+Q2HJ27	MYC_BOVIN	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Bos taurus (Bovine)	439
+P61585	RHOA_BOVIN	reviewed	Transforming protein RhoA (Gb) (p21)	RHOA ARHA RHO12	Bos taurus (Bovine)	193
+A2VDT1	TP4A3_BOVIN	reviewed	Protein tyrosine phosphatase type IVA 3 (EC 3.1.3.48) (Protein-tyrosine phosphatase 4a3)	PTP4A3	Bos taurus (Bovine)	173
+Q08DN7	VAV_BOVIN	reviewed	Proto-oncogene vav	VAV1	Bos taurus (Bovine)	844
+O77627	JUN_BOVIN	reviewed	Transcription factor AP-1 (Activator protein 1) (AP1) (Proto-oncogene c-Jun) (V-jun avian sarcoma virus 17 oncogene homolog)	JUN	Bos taurus (Bovine)	335
+P43481	KIT_BOVIN	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	KIT	Bos taurus (Bovine)	977
+A7Z017	MAF_BOVIN	reviewed	Transcription factor Maf (Proto-oncogene c-Maf) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog)	MAF	Bos taurus (Bovine)	377
+Q769I5	MET_BOVIN	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Bos taurus (Bovine)	1384
+Q9N0P9	PIM1_BOVIN	reviewed	Serine/threonine-protein kinase pim-1 (EC 2.7.11.1)	PIM1	Bos taurus (Bovine)	313
+P32871	PK3CA_BOVIN	reviewed	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PI3-kinase subunit alpha) (PI3K-alpha) (PI3Kalpha) (PtdIns-3-kinase subunit alpha) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha) (PtdIns-3-kinase subunit p110-alpha) (p110alpha) (Phosphoinositide-3-kinase catalytic alpha polypeptide) (Serine/threonine protein kinase PIK3CA) (EC 2.7.11.1)	PIK3CA	Bos taurus (Bovine)	1068
+Q3SZY3	PTTG1_BOVIN	reviewed	Securin (Pituitary tumor-transforming gene 1 protein)	PTTG1	Bos taurus (Bovine)	202
+A7E3S4	RAF1_BOVIN	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1)	RAF1	Bos taurus (Bovine)	648
+A4FV54	RAB8A_BOVIN	reviewed	Ras-related protein Rab-8A	RAB8A	Bos taurus (Bovine)	207
+Q0VCJ7	RERG_BOVIN	reviewed	Ras-related and estrogen-regulated growth inhibitor	RERG	Bos taurus (Bovine)	199
+Q9XVN3	IASPP_CAEEL	reviewed	Apoptotic enhancer 1 protein (Ce-iASPP) (Inhibitor member of the ASPP family) (Protein iASPP)	ape-1 F46F3.4	Caenorhabditis elegans	769
+Q76II0	KIT_CALJA	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	KIT	Callithrix jacchus (White-tufted-ear marmoset)	972
+P49032	MYC_CALJA	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Callithrix jacchus (White-tufted-ear marmoset)	438
+Q2QLG5	MET_CALJA	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Callithrix jacchus (White-tufted-ear marmoset)	1381
+Q865S3	ARHG2_CANLF	reviewed	Rho guanine nucleotide exchange factor 2 (Guanine nucleotide exchange factor H1) (GEF-H1) (Tight junction-associated guanine nucleotide exchange factor isoform A)	ARHGEF2	Canis lupus familiaris (Dog) (Canis familiaris)	986
+Q9TTY2	FER_CANLF	reviewed	Tyrosine-protein kinase Fer (EC 2.7.10.2) (Proto-oncogene c-Fer) (p94-Fer)	FER	Canis lupus familiaris (Dog) (Canis familiaris)	823
+O97799	KIT_CANLF	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	KIT	Canis lupus familiaris (Dog) (Canis familiaris)	979
+Q28350	MYC_CANLF	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Canis lupus familiaris (Dog) (Canis familiaris)	439
+Q28923	YES_CANLF	reviewed	Tyrosine-protein kinase Yes (EC 2.7.10.2) (Proto-oncogene c-Yes) (p61-Yes)	YES1 YES	Canis lupus familiaris (Dog) (Canis familiaris)	539
+Q75ZY9	MET_CANLF	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Canis lupus familiaris (Dog) (Canis familiaris)	1382
+Q6Q7I7	PDGFB_CANLF	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide)	PDGFB	Canis lupus familiaris (Dog) (Canis familiaris)	242
+P61007	RAB8A_CANLF	reviewed	Ras-related protein Rab-8A (Oncogene c-mel)	RAB8A MEL RAB8	Canis lupus familiaris (Dog) (Canis familiaris)	207
+P24406	RHOA_CANLF	reviewed	Transforming protein RhoA (Rho1)	RHOA ARHA RHO1	Canis lupus familiaris (Dog) (Canis familiaris)	193
+Q28317	KIT_CAPHI	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	KIT	Capra hircus (Goat)	978
+P12825	RASN_CAVPO	reviewed	GTPase NRas (Transforming protein N-Ras)	NRAS	Cavia porcellus (Guinea pig)	189
+Q1A1A6	FOXG1_CEBCA	reviewed	Forkhead box protein G1 (FoxG1)	FOXG1	Cebus capucinus (White-faced sapajou)	489
+Q1A1A1	FOXG1_CERSI	reviewed	Forkhead box protein G1 (FoxG1)	FOXG1	Ceratotherium simum (White rhinoceros) (Square-lipped rhinoceros)	486
+Q2IBA6	MET_CHLAE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Chlorocebus aethiops (Green monkey) (Cercopithecus aethiops)	1381
+P10650	MOS_CHLAE	reviewed	Proto-oncogene serine/threonine-protein kinase mos (EC 2.7.11.1) (Oocyte maturation factor mos) (Proto-oncogene c-Mos)	MOS	Chlorocebus aethiops (Green monkey) (Cercopithecus aethiops)	346
+Q1A1A5	FOXG1_CHLPG	reviewed	Forkhead box protein G1 (FoxG1)	FOXG1	Chlorocebus pygerythrus (Vervet monkey) (Cercopithecus pygerythrus)	489
+Q07DZ1	MET_COLGU	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Colobus guereza (Mantled guereza) (Eastern black-and-white colobus monkey)	1381
+P34908	BRAF_COTJA	reviewed	Serine/threonine-protein kinase B-raf (EC 2.7.11.1) (Proto-oncogene B-Raf) (Proto-oncogene c-Rmil) (Serine/threonine-protein kinase Rmil)	BRAF RMIL	Coturnix coturnix japonica (Japanese quail) (Coturnix japonica)	807
+P12981	JUN_COTJA	reviewed	Transcription factor AP-1 (Proto-oncogene c-Jun)	JUN	Coturnix coturnix japonica (Japanese quail) (Coturnix japonica)	313
+P42642	NOV_COTJA	reviewed	Protein NOV (CCN family member 3) (Nephroblastoma-overexpressed gene protein)	NOV CCN3	Coturnix coturnix japonica (Japanese quail) (Coturnix japonica)	353
+Q9Z2Q8	FOS_CRIGR	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus)	381
+P79702	FOS_CYPCA	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	fos	Cyprinus carpio (Common carp)	347
+Q6EWH2	FYNA_DANRE	reviewed	Tyrosine-protein kinase fyna (EC 2.7.10.2) (Proto-oncogene c-Fyna)	fyna fyn	Danio rerio (Zebrafish) (Brachydanio rerio)	537
+F1RDG9	FYNB_DANRE	reviewed	Tyrosine-protein kinase fynb (EC 2.7.10.2) (Proto-oncogene c-Fynb)	fynb	Danio rerio (Zebrafish) (Brachydanio rerio)	544
+Q7ZVS9	MYCB_DANRE	reviewed	Transcriptional regulator Myc-B (c-Myc-B)	mycb zgc:55680	Danio rerio (Zebrafish) (Brachydanio rerio)	396
+P52160	MYCA_DANRE	reviewed	Transcriptional regulator Myc-A (c-Myc-A) (zc-Myc)	myca cmyc myc	Danio rerio (Zebrafish) (Brachydanio rerio)	408
+Q9YHZ5	PIM2_DANRE	reviewed	Serine/threonine-protein kinase pim-2 (EC 2.7.11.1) (Kinase pim-1)	pim2 pim1 si:dkey-83k24.1	Danio rerio (Zebrafish) (Brachydanio rerio)	310
+Q07E48	MET_DASNO	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Dasypus novemcinctus (Nine-banded armadillo)	1381
+P08630	BTKL_DROME	reviewed	Tyrosine-protein kinase Btk29A (EC 2.7.10.2) (Dsrc28C) (Dsrc29a)	Btk29A Src2 Src29A Tec29 CG8049	Drosophila melanogaster (Fruit fly)	786
+P00528	SRC64_DROME	reviewed	Tyrosine-protein kinase Src64B (Dsrc64) (EC 2.7.10.2)	Src64B Src1 CG7524	Drosophila melanogaster (Fruit fly)	552
+Q45VV3	YAP1_DROME	reviewed	Transcriptional coactivator yorkie (Protein yorkie) (Transcriptional coactivator YAP1 homolog)	yki CG4005	Drosophila melanogaster (Fruit fly)	395
+A1X150	MET_ECHTE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Echinops telfairi (Lesser hedgehog tenrec)	1380
+Q1A1A3	FOXG1_EPOGA	reviewed	Forkhead box protein G1 (FoxG1)	FOXG1	Epomophorus gambianus (Gambian epauletted fruit bat)	485
+Q1A1A2	FOXG1_EQUBU	reviewed	Forkhead box protein G1 (FoxG1)	FOXG1	Equus burchelli (Plains zebra) (Equus quagga)	488
+Q9TUG2	SKI_HORSE	reviewed	Ski oncogene (Proto-oncogene c-Ski)	SKI	Equus caballus (Horse)	730
+Q2QLA9	MET_HORSE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Equus caballus (Horse)	1381
+Q2IBG7	MET_EULMM	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Eulemur macaco macaco (Black lemur)	1382
+Q9TST0	BMI1_FELCA	reviewed	Polycomb complex protein BMI-1 (Polycomb group RING finger protein 4)	BMI1 BMI-1 PCGF4	Felis catus (Cat) (Felis silvestris catus)	326
+P13369	CSF1R_FELCA	reviewed	Macrophage colony-stimulating factor 1 receptor (CSF-1 receptor) (CSF-1-R) (CSF-1R) (M-CSF-R) (EC 2.7.10.1) (Proto-oncogene c-Fms) (CD antigen CD115)	CSF1R FMS	Felis catus (Cat) (Felis silvestris catus)	980
+P14238	FES_FELCA	reviewed	Tyrosine-protein kinase Fes/Fps (EC 2.7.10.2) (Proto-oncogene c-Fes)	FES FPS	Felis catus (Cat) (Felis silvestris catus)	820
+Q8HZP6	FOS_FELCA	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Felis catus (Cat) (Felis silvestris catus)	381
+Q28889	KIT_FELCA	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	KIT	Felis catus (Cat) (Felis silvestris catus)	978
+P68271	MYC_FELCA	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Felis catus (Cat) (Felis silvestris catus)	439
+A0M8S8	MET_FELCA	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Felis catus (Cat) (Felis silvestris catus)	1382
+P12919	PDGFB_FELCA	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide) (Proto-oncogene c-Sis)	PDGFB SIS	Felis catus (Cat) (Felis silvestris catus)	245
+Q95LJ0	PIM1_FELCA	reviewed	Serine/threonine-protein kinase pim-1 (EC 2.7.11.1)	PIM1	Felis catus (Cat) (Felis silvestris catus)	313
+Q9MZU0	MYC_GALVR	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Galeopterus variegatus (Malayan flying lemur) (Cynocephalus variegatus)	439
+Q04982	BRAF_CHICK	reviewed	Serine/threonine-protein kinase B-raf (EC 2.7.11.1) (Proto-oncogene B-Raf) (Proto-oncogene c-Rmil) (Serine/threonine-protein kinase Rmil)	BRAF RMIL	Gallus gallus (Chicken)	806
+Q04929	CRK_CHICK	reviewed	Adapter molecule crk (Proto-oncogene c-Crk) (p38)	CRK	Gallus gallus (Chicken)	305
+Q05876	FYN_CHICK	reviewed	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	FYN	Gallus gallus (Chicken)	534
+P55878	GLI1_CHICK	reviewed	Zinc finger protein GLI1 (GLI) (Fragment)	GLI1 GLI	Gallus gallus (Chicken)	556
+P13474	ETS1A_CHICK	reviewed	Transforming protein p54/c-ets-1	ETS1	Gallus gallus (Chicken)	441
+P15062	ETS1B_CHICK	reviewed	Transforming protein p68/c-ets-1	ETS1	Gallus gallus (Chicken)	485
+P10157	ETS2_CHICK	reviewed	Protein C-ets-2	ETS2	Gallus gallus (Chicken)	479
+P18625	FOSL2_CHICK	reviewed	Fos-related antigen 2 (FRA-2)	FOSL2 FRA-2	Gallus gallus (Chicken)	323
+Q90964	FOXG1_CHICK	reviewed	Forkhead box protein G1 (FoxG1) (Brain factor 1) (BF-1) (BF1) (cBF-1) (CEQ 3-1) (Forkhead-related protein FKHL1) (N-62-5) (Proto-oncogene C-QIN)	FOXG1 FKHL1 FOXG1B QIN	Gallus gallus (Chicken)	451
+P11939	FOS_CHICK	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Gallus gallus (Chicken)	367
+P18870	JUN_CHICK	reviewed	Transcription factor AP-1 (Proto-oncogene c-Jun)	JUN	Gallus gallus (Chicken)	314
+P01103	MYB_CHICK	reviewed	Transcriptional activator Myb (Proto-oncogene c-Myb)	MYB	Gallus gallus (Chicken)	641
+P18444	MYCN_CHICK	reviewed	N-myc proto-oncogene protein	MYCN	Gallus gallus (Chicken)	441
+P01109	MYC_CHICK	reviewed	Myc proto-oncogene protein (c-Myc)	MYC	Gallus gallus (Chicken)	416
+P49140	SKI_CHICK	reviewed	Ski oncogene (Proto-oncogene c-Ski)	SKI	Gallus gallus (Chicken)	750
+P08941	ROS1_CHICK	reviewed	Proto-oncogene tyrosine-protein kinase ROS (EC 2.7.10.1) (Proto-oncogene c-Ros) (Proto-oncogene c-Ros-1) (Receptor tyrosine kinase c-ros oncogene 1) (c-Ros receptor tyrosine kinase)	ROS1	Gallus gallus (Chicken)	2311
+P00523	SRC_CHICK	reviewed	Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src)	SRC	Gallus gallus (Chicken)	533
+P04625	THA_CHICK	reviewed	Thyroid hormone receptor alpha (Nuclear receptor subfamily 1 group A member 1)	THRA NR1A1	Gallus gallus (Chicken)	408
+P46936	YAP1_CHICK	reviewed	Transcriptional coactivator YAP1 (Yes-associated protein 1) (65 kDa Yes-associated protein) (YAP65) (Protein yorkie homolog)	YAP1 YAP65	Gallus gallus (Chicken)	448
+Q02977	YRK_CHICK	reviewed	Proto-oncogene tyrosine-protein kinase Yrk (EC 2.7.10.2) (Yes-related kinase) (p60-Yrk)	YRK	Gallus gallus (Chicken)	536
+Q08156	KIT_CHICK	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit)	KIT	Gallus gallus (Chicken)	960
+P42683	LCK_CHICK	reviewed	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Protein-tyrosine kinase C-TKL) (p56tk1)	LCK	Gallus gallus (Chicken)	508
+P28686	NOV_CHICK	reviewed	Protein NOV (CCN family member 3) (Nephroblastoma-overexpressed gene protein)	NOV CCN3	Gallus gallus (Chicken)	351
+Q58NQ5	PLAG1_CHICK	reviewed	Zinc finger protein PLAG1 (Pleiomorphic adenoma gene 1 protein)	PLAG1	Gallus gallus (Chicken)	501
+P05625	RAF1_CHICK	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (C-MIL) (C-RAF) (MIL proto-oncogene serine/threonine-protein kinase) (RAF-1)	RAF1 MIL	Gallus gallus (Chicken)	647
+P08642	RASH_CHICK	reviewed	GTPase HRas (H-Ras-1) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]	HRAS HRAS1	Gallus gallus (Chicken)	189
+Q5F470	RAB8A_CHICK	reviewed	Ras-related protein Rab-8A	RAB8A RCJMB04_2k8	Gallus gallus (Chicken)	207
+P16236	REL_CHICK	reviewed	Proto-oncogene c-Rel (p68)	REL	Gallus gallus (Chicken)	598
+Q2IBF2	MET_GORGO	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Gorilla gorilla gorilla (Western lowland gorilla)	1390
+A1YF19	PTTG1_GORGO	reviewed	Securin (Pituitary tumor-transforming gene 1 protein)	PTTG1	Gorilla gorilla gorilla (Western lowland gorilla)	202
+Q13015	AF1Q_HUMAN	reviewed	Protein AF1q	MLLT11 AF1Q	Homo sapiens (Human)	90
+P00519	ABL1_HUMAN	reviewed	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	ABL1 ABL JTK7	Homo sapiens (Human)	1130
+Q9NQ31	AKIP1_HUMAN	reviewed	A-kinase-interacting protein 1 (Breast cancer-associated gene 3 protein) (PKA-interacting protein) (Proline-rich protein BCA3)	AKIP1 BCA3 C11orf17	Homo sapiens (Human)	210
+P55197	AF10_HUMAN	reviewed	Protein AF-10 (ALL1-fused gene from chromosome 10 protein)	MLLT10 AF10	Homo sapiens (Human)	1068
+P55196	AFAD_HUMAN	reviewed	Afadin (ALL1-fused gene from chromosome 6 protein) (Protein AF-6) (Afadin adherens junction formation factor)	AFDN AF6 MLLT4	Homo sapiens (Human)	1824
+O95994	AGR2_HUMAN	reviewed	Anterior gradient protein 2 homolog (AG-2) (hAG-2) (HPC8) (Secreted cement gland protein XAG-2 homolog)	AGR2 AG2 UNQ515/PRO1030	Homo sapiens (Human)	175
+P31749	AKT1_HUMAN	reviewed	RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha)	AKT1 PKB RAC	Homo sapiens (Human)	480
+Q9UM73	ALK_HUMAN	reviewed	ALK tyrosine kinase receptor (EC 2.7.10.1) (Anaplastic lymphoma kinase) (CD antigen CD246)	ALK	Homo sapiens (Human)	1620
+P51825	AFF1_HUMAN	reviewed	AF4/FMR2 family member 1 (ALL1-fused gene from chromosome 4 protein) (Protein AF-4) (Protein FEL) (Proto-oncogene AF4)	AFF1 AF4 FEL MLLT2 PBM1	Homo sapiens (Human)	1210
+Q9UHB7	AFF4_HUMAN	reviewed	AF4/FMR2 family member 4 (ALL1-fused gene from chromosome 5q31 protein) (Protein AF-5q31) (Major CDK9 elongation factor-associated protein)	AFF4 AF5Q31 MCEF HSPC092	Homo sapiens (Human)	1163
+Q96K21	ANCHR_HUMAN	reviewed	Abscission/NoCut checkpoint regulator (ANCHR) (MLL partner containing FYVE domain) (Zinc finger FYVE domain-containing protein 19)	ZFYVE19 ANCHR MPFYVE	Homo sapiens (Human)	471
+P55198	AF17_HUMAN	reviewed	Protein AF-17 (ALL1-fused gene from chromosome 17 protein)	MLLT6 AF17	Homo sapiens (Human)	1093
+P42568	AF9_HUMAN	reviewed	Protein AF-9 (ALL1-fused gene from chromosome 9 protein) (Myeloid/lymphoid or mixed-lineage leukemia translocated to chromosome 3 protein) (YEATS domain-containing protein 3)	MLLT3 AF9 YEATS3	Homo sapiens (Human)	568
+Q9NZN5	ARHGC_HUMAN	reviewed	Rho guanine nucleotide exchange factor 12 (Leukemia-associated RhoGEF)	ARHGEF12 KIAA0382 LARG	Homo sapiens (Human)	1544
+Q7Z628	ARHG8_HUMAN	reviewed	Neuroepithelial cell-transforming gene 1 protein (Proto-oncogene p65 Net1) (Rho guanine nucleotide exchange factor 8)	NET1 ARHGEF8	Homo sapiens (Human)	596
+Q12774	ARHG5_HUMAN	reviewed	Rho guanine nucleotide exchange factor 5 (Ephexin-3) (Guanine nucleotide regulatory protein TIM) (Oncogene TIM) (Transforming immortalized mammary oncogene) (p60 TIM)	ARHGEF5 TIM	Homo sapiens (Human)	1597
+P10398	ARAF_HUMAN	reviewed	Serine/threonine-protein kinase A-Raf (EC 2.7.11.1) (Proto-oncogene A-Raf) (Proto-oncogene A-Raf-1) (Proto-oncogene Pks)	ARAF ARAF1 PKS PKS2	Homo sapiens (Human)	606
+P31751	AKT2_HUMAN	reviewed	RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta)	AKT2	Homo sapiens (Human)	481
+Q12802	AKP13_HUMAN	reviewed	A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47)	AKAP13 BRX HT31 LBC	Homo sapiens (Human)	2813
+Q9BZE9	ASPC1_HUMAN	reviewed	Tether containing UBX domain for GLUT4 (Alveolar soft part sarcoma chromosomal region candidate gene 1 protein) (Alveolar soft part sarcoma locus) (Renal papillary cell carcinoma protein 17) (UBX domain-containing protein 9)	ASPSCR1 ASPL RCC17 TUG UBXD9 UBXN9	Homo sapiens (Human)	553
+Q9H6U6	BCAS3_HUMAN	reviewed	Breast carcinoma-amplified sequence 3 (GAOB1)	BCAS3	Homo sapiens (Human)	928
+O14965	AURKA_HUMAN	reviewed	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (hARK1) (Breast tumor-amplified kinase) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A)	AURKA AIK AIRK1 ARK1 AURA AYK1 BTAK IAK1 STK15 STK6	Homo sapiens (Human)	403
+O00512	BCL9_HUMAN	reviewed	B-cell CLL/lymphoma 9 protein (B-cell lymphoma 9 protein) (Bcl-9) (Protein legless homolog)	BCL9	Homo sapiens (Human)	1426
+Q8TDM0	BCAS4_HUMAN	reviewed	Breast carcinoma-amplified sequence 4	BCAS4	Homo sapiens (Human)	211
+P10415	BCL2_HUMAN	reviewed	Apoptosis regulator Bcl-2	BCL2	Homo sapiens (Human)	239
+Q8WY22	BRI3B_HUMAN	reviewed	BRI3-binding protein (I3-binding protein) (Cervical cancer 1 proto-oncogene-binding protein KG19) (HCCRBP-1)	BRI3BP KG19	Homo sapiens (Human)	251
+P41182	BCL6_HUMAN	reviewed	B-cell lymphoma 6 protein (BCL-6) (B-cell lymphoma 5 protein) (BCL-5) (Protein LAZ-3) (Zinc finger and BTB domain-containing protein 27) (Zinc finger protein 51)	BCL6 BCL5 LAZ3 ZBTB27 ZNF51	Homo sapiens (Human)	706
+P20749	BCL3_HUMAN	reviewed	B-cell lymphoma 3 protein (BCL-3) (Proto-oncogene BCL3)	BCL3 BCL4 D19S37	Homo sapiens (Human)	454
+P11274	BCR_HUMAN	reviewed	Breakpoint cluster region protein (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-26)	BCR BCR1 D22S11	Homo sapiens (Human)	1271
+P46736	BRCC3_HUMAN	reviewed	Lys-63-specific deubiquitinase BRCC36 (EC 3.4.19.-) (BRCA1-A complex subunit BRCC36) (BRCA1/BRCA2-containing complex subunit 3) (BRCA1/BRCA2-containing complex subunit 36) (BRISC complex subunit BRCC36)	BRCC3 BRCC36 C6.1A CXorf53	Homo sapiens (Human)	316
+P15056	BRAF_HUMAN	reviewed	Serine/threonine-protein kinase B-raf (EC 2.7.11.1) (Proto-oncogene B-Raf) (p94) (v-Raf murine sarcoma viral oncogene homolog B1)	BRAF BRAF1 RAFB1	Homo sapiens (Human)	766
+Q9UK58	CCNL1_HUMAN	reviewed	Cyclin-L1 (Cyclin-L)	CCNL1 BM-001 UNQ530/PRO1073	Homo sapiens (Human)	526
+P35226	BMI1_HUMAN	reviewed	Polycomb complex protein BMI-1 (Polycomb group RING finger protein 4) (RING finger protein 51)	BMI1 PCGF4 RNF51	Homo sapiens (Human)	326
+P22681	CBL_HUMAN	reviewed	E3 ubiquitin-protein ligase CBL (EC 2.3.2.27) (Casitas B-lineage lymphoma proto-oncogene) (Proto-oncogene c-Cbl) (RING finger protein 55) (RING-type E3 ubiquitin transferase CBL) (Signal transduction protein CBL)	CBL CBL2 RNF55	Homo sapiens (Human)	906
+P62324	BTG1_HUMAN	reviewed	Protein BTG1 (B-cell translocation gene 1 protein)	BTG1	Homo sapiens (Human)	171
+Q16204	CCDC6_HUMAN	reviewed	Coiled-coil domain-containing protein 6 (Papillary thyroid carcinoma-encoded protein) (Protein H4)	CCDC6 D10S170 TST1	Homo sapiens (Human)	474
+Q9H211	CDT1_HUMAN	reviewed	DNA replication factor Cdt1 (Double parked homolog) (DUP)	CDT1	Homo sapiens (Human)	546
+P24385	CCND1_HUMAN	reviewed	G1/S-specific cyclin-D1 (B-cell lymphoma 1 protein) (BCL-1) (BCL-1 oncogene) (PRAD1 oncogene)	CCND1 BCL1 PRAD1	Homo sapiens (Human)	295
+P56277	CMC4_HUMAN	reviewed	Cx9C motif-containing protein 4 (Mature T-cell proliferation 1 neighbor protein) (Mature T-cell proliferation-1 type A) (MTCP-1 type A) (Protein p8 MTCP-1) (p8MTCP1)	CMC4 C6.1B MTCP1 MTCP1NB	Homo sapiens (Human)	68
+P46108	CRK_HUMAN	reviewed	Adapter molecule crk (Proto-oncogene c-Crk) (p38)	CRK	Homo sapiens (Human)	304
+Q8NEV1	CSK23_HUMAN	reviewed	Casein kinase II subunit alpha 3 (CK II alpha 3) (EC 2.7.11.1) (Casein kinase II alpha 1 polypeptide pseudogene)	CSNK2A3 CSNK2A1P	Homo sapiens (Human)	391
+Q70SY1	CR3L2_HUMAN	reviewed	Cyclic AMP-responsive element-binding protein 3-like protein 2 (cAMP-responsive element-binding protein 3-like protein 2) (BBF2 human homolog on chromosome 7) [Cleaved into: Processed cyclic AMP-responsive element-binding protein 3-like protein 2]	CREB3L2 BBF2H7	Homo sapiens (Human)	520
+P07333	CSF1R_HUMAN	reviewed	Macrophage colony-stimulating factor 1 receptor (CSF-1 receptor) (CSF-1-R) (CSF-1R) (M-CSF-R) (EC 2.7.10.1) (Proto-oncogene c-Fms) (CD antigen CD115)	CSF1R FMS	Homo sapiens (Human)	972
+Q96GG9	DCNL1_HUMAN	reviewed	DCN1-like protein 1 (DCUN1 domain-containing protein 1) (Defective in cullin neddylation protein 1-like protein 1) (Squamous cell carcinoma-related oncogene)	DCUN1D1 DCUN1L1 RP42 SCCRO	Homo sapiens (Human)	259
+Q5M775	CYTSB_HUMAN	reviewed	Cytospin-B (Nuclear structure protein 5) (NSP5) (Sperm antigen HCMOGT-1) (Sperm antigen with calponin homology and coiled-coil domains 1)	SPECC1 CYTSB NSP5	Homo sapiens (Human)	1068
+P35659	DEK_HUMAN	reviewed	Protein DEK	DEK	Homo sapiens (Human)	375
+Q8N1I0	DOCK4_HUMAN	reviewed	Dedicator of cytokinesis protein 4	DOCK4 KIAA0716	Homo sapiens (Human)	1966
+P35638	DDIT3_HUMAN	reviewed	DNA damage-inducible transcript 3 protein (DDIT-3) (C/EBP zeta) (C/EBP-homologous protein) (CHOP) (C/EBP-homologous protein 10) (CHOP-10) (CCAAT/enhancer-binding protein homologous protein) (Growth arrest and DNA damage-inducible protein GADD153)	DDIT3 CHOP CHOP10 GADD153	Homo sapiens (Human)	169
+P26196	DDX6_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX6 (EC 3.6.4.13) (ATP-dependent RNA helicase p54) (DEAD box protein 6) (Oncogene RCK)	DDX6 HLR2 RCK	Homo sapiens (Human)	483
+Q03111	ENL_HUMAN	reviewed	Protein ENL (YEATS domain-containing protein 1)	MLLT1 ENL LTG19 YEATS1	Homo sapiens (Human)	559
+O75356	ENTP5_HUMAN	reviewed	Ectonucleoside triphosphate diphosphohydrolase 5 (NTPDase 5) (EC 3.6.1.6) (CD39 antigen-like 4) (ER-UDPase) (Guanosine-diphosphatase ENTPD5) (GDPase ENTPD5) (EC 3.6.1.42) (Nucleoside diphosphatase) (Uridine-diphosphatase ENTPD5) (UDPase ENTPD5)	ENTPD5 CD39L4 PCPH	Homo sapiens (Human)	428
+P63092	GNAS2_HUMAN	reviewed	Guanine nucleotide-binding protein G(s) subunit alpha isoforms short (Adenylate cyclase-stimulating G alpha protein)	GNAS GNAS1 GSP	Homo sapiens (Human)	394
+O60861	GAS7_HUMAN	reviewed	Growth arrest-specific protein 7 (GAS-7)	GAS7 KIAA0394	Homo sapiens (Human)	476
+P08151	GLI1_HUMAN	reviewed	Zinc finger protein GLI1 (Glioma-associated oncogene) (Oncogene GLI)	GLI1 GLI	Homo sapiens (Human)	1106
+P55199	ELL_HUMAN	reviewed	RNA polymerase II elongation factor ELL (Eleven-nineteen lysine-rich leukemia protein)	ELL C19orf17	Homo sapiens (Human)	621
+P11308	ERG_HUMAN	reviewed	Transcriptional regulator ERG (Transforming protein ERG)	ERG	Homo sapiens (Human)	486
+P00533	EGFR_HUMAN	reviewed	Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1)	EGFR ERBB ERBB1 HER1	Homo sapiens (Human)	1210
+Q99607	ELF4_HUMAN	reviewed	ETS-related transcription factor Elf-4 (E74-like factor 4) (Myeloid Elf-1-like factor)	ELF4 ELFR MEF	Homo sapiens (Human)	663
+Q03112	EVI1_HUMAN	reviewed	MDS1 and EVI1 complex locus protein EVI1 (Ecotropic virus integration site 1 protein homolog) (EVI-1)	MECOM EVI1	Homo sapiens (Human)	1051
+Q5T0W9	FA83B_HUMAN	reviewed	Protein FAM83B	FAM83B C6orf143	Homo sapiens (Human)	1011
+Q01844	EWS_HUMAN	reviewed	RNA-binding protein EWS (EWS oncogene) (Ewing sarcoma breakpoint region 1 protein)	EWSR1 EWS	Homo sapiens (Human)	656
+Q9H4H8	FA83D_HUMAN	reviewed	Protein FAM83D (Spindle protein CHICA)	FAM83D C20orf129	Homo sapiens (Human)	585
+P14921	ETS1_HUMAN	reviewed	Protein C-ets-1 (p54)	ETS1 EWSR2	Homo sapiens (Human)	441
+P22794	EVI2A_HUMAN	reviewed	Protein EVI2A (Ecotropic viral integration site 2A protein homolog) (EVI-2A)	EVI2A EVDA EVI2	Homo sapiens (Human)	236
+P15036	ETS2_HUMAN	reviewed	Protein C-ets-2	ETS2	Homo sapiens (Human)	469
+P41212	ETV6_HUMAN	reviewed	Transcription factor ETV6 (ETS translocation variant 6) (ETS-related protein Tel1) (Tel)	ETV6 TEL TEL1	Homo sapiens (Human)	452
+P34910	EVI2B_HUMAN	reviewed	Protein EVI2B (Ecotropic viral integration site 2B protein homolog) (EVI-2B) (CD antigen CD361)	EVI2B EVDB	Homo sapiens (Human)	448
+P42566	EPS15_HUMAN	reviewed	Epidermal growth factor receptor substrate 15 (Protein Eps15) (Protein AF-1p)	EPS15 AF1P	Homo sapiens (Human)	896
+P11487	FGF3_HUMAN	reviewed	Fibroblast growth factor 3 (FGF-3) (Heparin-binding growth factor 3) (HBGF-3) (Proto-oncogene Int-2)	FGF3 INT2	Homo sapiens (Human)	239
+P21802	FGFR2_HUMAN	reviewed	Fibroblast growth factor receptor 2 (FGFR-2) (EC 2.7.10.1) (K-sam) (KGFR) (Keratinocyte growth factor receptor) (CD antigen CD332)	FGFR2 BEK KGFR KSAM	Homo sapiens (Human)	821
+P16591	FER_HUMAN	reviewed	Tyrosine-protein kinase Fer (EC 2.7.10.2) (Feline encephalitis virus-related kinase FER) (Fujinami poultry sarcoma/Feline sarcoma-related protein Fer) (Proto-oncogene c-Fer) (Tyrosine kinase 3) (p94-Fer)	FER TYK3	Homo sapiens (Human)	822
+P07332	FES_HUMAN	reviewed	Tyrosine-protein kinase Fes/Fps (EC 2.7.10.2) (Feline sarcoma/Fujinami avian sarcoma oncogene homolog) (Proto-oncogene c-Fes) (Proto-oncogene c-Fps) (p93c-fes)	FES FPS	Homo sapiens (Human)	822
+P01100	FOS_HUMAN	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos) (G0/G1 switch regulatory protein 7)	FOS G0S7	Homo sapiens (Human)	380
+P31994	FCG2B_HUMAN	reviewed	Low affinity immunoglobulin gamma Fc region receptor II-b (IgG Fc receptor II-b) (CDw32) (Fc-gamma RII-b) (Fc-gamma-RIIb) (FcRII-b) (CD antigen CD32)	FCGR2B CD32 FCG2 IGFR2	Homo sapiens (Human)	310
+P12034	FGF5_HUMAN	reviewed	Fibroblast growth factor 5 (FGF-5) (Heparin-binding growth factor 5) (HBGF-5) (Smag-82)	FGF5	Homo sapiens (Human)	268
+P50549	ETV1_HUMAN	reviewed	ETS translocation variant 1 (Ets-related protein 81)	ETV1 ER81	Homo sapiens (Human)	477
+Q01543	FLI1_HUMAN	reviewed	Friend leukemia integration 1 transcription factor (Proto-oncogene Fli-1) (Transcription factor ERGB)	FLI1	Homo sapiens (Human)	452
+Q86UY5	FA83A_HUMAN	reviewed	Protein FAM83A (Tumor antigen BJ-TSA-9) (Tumor-specific gene expressed in prostate protein)	FAM83A TSGP	Homo sapiens (Human)	434
+P08620	FGF4_HUMAN	reviewed	Fibroblast growth factor 4 (FGF-4) (Heparin secretory-transforming protein 1) (HST) (HST-1) (HSTF-1) (Heparin-binding growth factor 4) (HBGF-4) (Transforming protein KS3)	FGF4 HST HSTF1 KS3	Homo sapiens (Human)	206
+P10767	FGF6_HUMAN	reviewed	Fibroblast growth factor 6 (FGF-6) (Heparin secretory-transforming protein 2) (HST-2) (HSTF-2) (Heparin-binding growth factor 6) (HBGF-6)	FGF6 HST2 HSTF2	Homo sapiens (Human)	208
+P09769	FGR_HUMAN	reviewed	Tyrosine-protein kinase Fgr (EC 2.7.10.2) (Gardner-Rasheed feline sarcoma viral (v-fgr) oncogene homolog) (Proto-oncogene c-Fgr) (p55-Fgr) (p58-Fgr) (p58c-Fgr)	FGR SRC2	Homo sapiens (Human)	529
+O43524	FOXO3_HUMAN	reviewed	Forkhead box protein O3 (AF6q21 protein) (Forkhead in rhabdomyosarcoma-like 1)	FOXO3 FKHRL1 FOXO3A	Homo sapiens (Human)	673
+P36888	FLT3_HUMAN	reviewed	Receptor-type tyrosine-protein kinase FLT3 (EC 2.7.10.1) (FL cytokine receptor) (Fetal liver kinase-2) (FLK-2) (Fms-like tyrosine kinase 3) (FLT-3) (Stem cell tyrosine kinase 1) (STK-1) (CD antigen CD135)	FLT3 CD135 FLK2 STK1	Homo sapiens (Human)	993
+Q92837	FRAT1_HUMAN	reviewed	Proto-oncogene FRAT1 (Frequently rearranged in advanced T-cell lymphomas 1) (FRAT-1)	FRAT1	Homo sapiens (Human)	279
+O95633	FSTL3_HUMAN	reviewed	Follistatin-related protein 3 (Follistatin-like protein 3) (Follistatin-related gene protein)	FSTL3 FLRG UNQ674/PRO1308	Homo sapiens (Human)	263
+P35637	FUS_HUMAN	reviewed	RNA-binding protein FUS (75 kDa DNA-pairing protein) (Oncogene FUS) (Oncogene TLS) (POMp75) (Translocated in liposarcoma protein)	FUS TLS	Homo sapiens (Human)	526
+Q12778	FOXO1_HUMAN	reviewed	Forkhead box protein O1 (Forkhead box protein O1A) (Forkhead in rhabdomyosarcoma)	FOXO1 FKHR FOXO1A	Homo sapiens (Human)	655
+P98177	FOXO4_HUMAN	reviewed	Forkhead box protein O4 (Fork head domain transcription factor AFX1)	FOXO4 AFX AFX1 MLLT7	Homo sapiens (Human)	505
+Q5VTD9	GFI1B_HUMAN	reviewed	Zinc finger protein Gfi-1b (Growth factor independent protein 1B) (Potential regulator of CDKN1A translocated in CML)	GFI1B	Homo sapiens (Human)	330
+P06241	FYN_HUMAN	reviewed	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	FYN	Homo sapiens (Human)	537
+P49915	GUAA_HUMAN	reviewed	GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2) (GMP synthetase) (Glutamine amidotransferase)	GMPS	Homo sapiens (Human)	693
+P08631	HCK_HUMAN	reviewed	Tyrosine-protein kinase HCK (EC 2.7.10.2) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p59-HCK/p60-HCK) (p59Hck) (p61Hck)	HCK	Homo sapiens (Human)	526
+Q16534	HLF_HUMAN	reviewed	Hepatic leukemia factor	HLF	Homo sapiens (Human)	295
+P52926	HMGA2_HUMAN	reviewed	High mobility group protein HMGI-C (High mobility group AT-hook protein 2)	HMGA2 HMGIC	Homo sapiens (Human)	109
+Q9BPY8	HOP_HUMAN	reviewed	Homeodomain-only protein (Lung cancer-associated Y protein) (Not expressed in choriocarcinoma protein 1) (Odd homeobox protein 1)	HOPX HOD HOP LAGY NECC1 OB1	Homo sapiens (Human)	73
+P31269	HXA9_HUMAN	reviewed	Homeobox protein Hox-A9 (Homeobox protein Hox-1G)	HOXA9 HOX1G	Homo sapiens (Human)	272
+P17252	KPCA_HUMAN	reviewed	Protein kinase C alpha type (PKC-A) (PKC-alpha) (EC 2.7.11.13)	PRKCA PKCA PRKACA	Homo sapiens (Human)	672
+Q03164	KMT2A_HUMAN	reviewed	Histone-lysine N-methyltransferase 2A (Lysine N-methyltransferase 2A) (EC 2.1.1.43) (ALL-1) (CXXC-type zinc finger protein 7) (Myeloid/lymphoid or mixed-lineage leukemia) (Myeloid/lymphoid or mixed-lineage leukemia protein 1) (Trithorax-like protein) (Zinc finger protein HRX) [Cleaved into: MLL cleavage product N320 (N-terminal cleavage product of 320 kDa) (p320); MLL cleavage product C180 (C-terminal cleavage product of 180 kDa) (p180)]	KMT2A ALL1 CXXC7 HRX HTRX MLL MLL1 TRX1	Homo sapiens (Human)	3969
+P41743	KPCI_HUMAN	reviewed	Protein kinase C iota type (EC 2.7.11.13) (Atypical protein kinase C-lambda/iota) (PRKC-lambda/iota) (aPKC-lambda/iota) (nPKC-iota)	PRKCI DXS1179E	Homo sapiens (Human)	596
+Q06136	KDSR_HUMAN	reviewed	3-ketodihydrosphingosine reductase (KDS reductase) (EC 1.1.1.102) (3-dehydrosphinganine reductase) (Follicular variant translocation protein 1) (FVT-1) (Short chain dehydrogenase/reductase family 35C member 1)	KDSR FVT1 SDR35C1	Homo sapiens (Human)	332
+P10721	KIT_HUMAN	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Piebald trait protein) (PBT) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (p145 c-kit) (v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog) (CD antigen CD117)	KIT SCFR	Homo sapiens (Human)	976
+Q00653	NFKB2_HUMAN	reviewed	Nuclear factor NF-kappa-B p100 subunit (DNA-binding factor KBF2) (H2TF1) (Lymphocyte translocation chromosome 10 protein) (Nuclear factor of kappa light polypeptide gene enhancer in B-cells 2) (Oncogene Lyt-10) (Lyt10) [Cleaved into: Nuclear factor NF-kappa-B p52 subunit]	NFKB2 LYT10	Homo sapiens (Human)	900
+Q13772	NCOA4_HUMAN	reviewed	Nuclear receptor coactivator 4 (NCoA-4) (Androgen receptor coactivator 70 kDa protein) (70 kDa AR-activator) (70 kDa androgen receptor coactivator) (Androgen receptor-associated protein of 70 kDa) (Ret-activating protein ELE1)	NCOA4 ARA70 ELE1 RFG	Homo sapiens (Human)	614
+P10242	MYB_HUMAN	reviewed	Transcriptional activator Myb (Proto-oncogene c-Myb)	MYB	Homo sapiens (Human)	640
+P01106	MYC_HUMAN	reviewed	Myc proto-oncogene protein (Class E basic helix-loop-helix protein 39) (bHLHe39) (Proto-oncogene c-Myc) (Transcription factor p64)	MYC BHLHE39	Homo sapiens (Human)	439
+P50539	MXI1_HUMAN	reviewed	Max-interacting protein 1 (Max interactor 1) (Class C basic helix-loop-helix protein 11) (bHLHc11)	MXI1 BHLHC11	Homo sapiens (Human)	228
+Q96EZ4	MYEOV_HUMAN	reviewed	Myeloma-overexpressed gene protein (Oncogene in multiple myeloma)	MYEOV OCIM	Homo sapiens (Human)	313
+P04198	MYCN_HUMAN	reviewed	N-myc proto-oncogene protein (Class E basic helix-loop-helix protein 37) (bHLHe37)	MYCN BHLHE37 NMYC	Homo sapiens (Human)	464
+P35749	MYH11_HUMAN	reviewed	Myosin-11 (Myosin heavy chain 11) (Myosin heavy chain, smooth muscle isoform) (SMMHC)	MYH11 KIAA0866	Homo sapiens (Human)	1972
+Q15788	NCOA1_HUMAN	reviewed	Nuclear receptor coactivator 1 (NCoA-1) (EC 2.3.1.48) (Class E basic helix-loop-helix protein 74) (bHLHe74) (Protein Hin-2) (RIP160) (Renal carcinoma antigen NY-REN-52) (Steroid receptor coactivator 1) (SRC-1)	NCOA1 BHLHE74 SRC1	Homo sapiens (Human)	1441
+P06748	NPM_HUMAN	reviewed	Nucleophosmin (NPM) (Nucleolar phosphoprotein B23) (Nucleolar protein NO38) (Numatrin)	NPM1 NPM	Homo sapiens (Human)	294
+Q16633	OBF1_HUMAN	reviewed	POU domain class 2-associating factor 1 (B-cell-specific coactivator OBF-1) (BOB-1) (OCA-B) (OCT-binding factor 1)	POU2AF1 OBF1	Homo sapiens (Human)	256
+P04629	NTRK1_HUMAN	reviewed	High affinity nerve growth factor receptor (EC 2.7.10.1) (Neurotrophic tyrosine kinase receptor type 1) (TRK1-transforming tyrosine kinase protein) (Tropomyosin-related kinase A) (Tyrosine kinase receptor) (Tyrosine kinase receptor A) (Trk-A) (gp140trk) (p140-TrkA)	NTRK1 MTC TRK TRKA	Homo sapiens (Human)	796
+Q13516	OLIG2_HUMAN	reviewed	Oligodendrocyte transcription factor 2 (Oligo2) (Class B basic helix-loop-helix protein 1) (bHLHb1) (Class E basic helix-loop-helix protein 19) (bHLHe19) (Protein kinase C-binding protein 2) (Protein kinase C-binding protein RACK17)	OLIG2 BHLHB1 BHLHE19 PRKCBP2 RACK17	Homo sapiens (Human)	323
+Q9UNA1	RHG26_HUMAN	reviewed	Rho GTPase-activating protein 26 (GTPase regulator associated with focal adhesion kinase) (Oligophrenin-1-like protein) (Rho-type GTPase-activating protein 26)	ARHGAP26 GRAF KIAA0621 OPHN1L	Homo sapiens (Human)	814
+P61586	RHOA_HUMAN	reviewed	Transforming protein RhoA (Rho cDNA clone 12) (h12)	RHOA ARH12 ARHA RHO12	Homo sapiens (Human)	193
+Q04864	REL_HUMAN	reviewed	Proto-oncogene c-Rel	REL	Homo sapiens (Human)	619
+Q99961	SH3G1_HUMAN	reviewed	Endophilin-A2 (EEN fusion partner of MLL) (Endophilin-2) (Extra eleven-nineteen leukemia fusion gene protein) (EEN) (SH3 domain protein 2B) (SH3 domain-containing GRB2-like protein 1)	SH3GL1 CNSA1 SH3D2B	Homo sapiens (Human)	368
+P12755	SKI_HUMAN	reviewed	Ski oncogene (Proto-oncogene c-Ski)	SKI	Homo sapiens (Human)	728
+Q63HN8	RN213_HUMAN	reviewed	E3 ubiquitin-protein ligase RNF213 (EC 2.3.2.27) (EC 3.6.4.-) (ALK lymphoma oligomerization partner on chromosome 17) (Mysterin) (RING finger protein 213) (RING-type E3 ubiquitin transferase RNF213)	RNF213 ALO17 C17orf27 KIAA1554 KIAA1618 MYSTR	Homo sapiens (Human)	5207
+P08922	ROS1_HUMAN	reviewed	Proto-oncogene tyrosine-protein kinase ROS (EC 2.7.10.1) (Proto-oncogene c-Ros) (Proto-oncogene c-Ros-1) (Receptor tyrosine kinase c-ros oncogene 1) (c-Ros receptor tyrosine kinase)	ROS1 MCF3 ROS	Homo sapiens (Human)	2347
+Q9BQ52	RNZ2_HUMAN	reviewed	Zinc phosphodiesterase ELAC protein 2 (EC 3.1.26.11) (ElaC homolog protein 2) (Heredity prostate cancer protein 2) (Ribonuclease Z 2) (RNase Z 2) (tRNA 3 endonuclease 2) (tRNase Z 2)	ELAC2 HPC2	Homo sapiens (Human)	826
+P62070	RRAS2_HUMAN	reviewed	Ras-related protein R-Ras2 (Ras-like protein TC21) (Teratocarcinoma oncogene)	RRAS2 TC21	Homo sapiens (Human)	204
+Q01105	SET_HUMAN	reviewed	Protein SET (HLA-DR-associated protein II) (Inhibitor of granzyme A-activated DNase) (IGAAD) (PHAPII) (Phosphatase 2A inhibitor I2PP2A) (I-2PP2A) (Template-activating factor I) (TAF-I)	SET	Homo sapiens (Human)	290
+O94979	SC31A_HUMAN	reviewed	Protein transport protein Sec31A (ABP125) (ABP130) (SEC31-like protein 1) (SEC31-related protein A) (Web1-like protein)	SEC31A KIAA0905 SEC31L1 HSPC275 HSPC334	Homo sapiens (Human)	1220
+Q01196	RUNX1_HUMAN	reviewed	Runt-related transcription factor 1 (Acute myeloid leukemia 1 protein) (Core-binding factor subunit alpha-2) (CBF-alpha-2) (Oncogene AML-1) (Polyomavirus enhancer-binding protein 2 alpha B subunit) (PEA2-alpha B) (PEBP2-alpha B) (SL3-3 enhancer factor 1 alpha B subunit) (SL3/AKV core-binding factor alpha B subunit)	RUNX1 AML1 CBFA2	Homo sapiens (Human)	453
+Q9NZQ3	SPN90_HUMAN	reviewed	NCK-interacting protein with SH3 domain (54 kDa VacA-interacting protein) (54 kDa vimentin-interacting protein) (VIP54) (90 kDa SH3 protein interacting with Nck) (AF3p21) (Dia-interacting protein 1) (DIP-1) (Diaphanous protein-interacting protein) (SH3 adapter protein SPIN90) (WASP-interacting SH3-domain protein) (WISH) (Wiskott-Aldrich syndrome protein-interacting protein)	NCKIPSD AF3P21 SPIN90	Homo sapiens (Human)	722
+Q15022	SUZ12_HUMAN	reviewed	Polycomb protein SUZ12 (Chromatin precipitated E2F target 9 protein) (ChET 9 protein) (Joined to JAZF1 protein) (Suppressor of zeste 12 protein homolog)	SUZ12 CHET9 JJAZ1 KIAA0160	Homo sapiens (Human)	739
+Q16384	SSX1_HUMAN	reviewed	Protein SSX1 (Cancer/testis antigen 5.1) (CT5.1) (Synovial sarcoma, X breakpoint 1)	SSX1	Homo sapiens (Human)	188
+P17947	SPI1_HUMAN	reviewed	Transcription factor PU.1 (31 kDa-transforming protein)	SPI1	Homo sapiens (Human)	270
+P12931	SRC_HUMAN	reviewed	Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src)	SRC SRC1	Homo sapiens (Human)	536
+O95988	TCL1B_HUMAN	reviewed	T-cell leukemia/lymphoma protein 1B (Oncogene TCL-1B) (Oncogene TCL1B) (SYN-1) (Syncytiotrophoblast-specific protein) (TCL1/MTCP1-like protein 1)	TCL1B TCL1	Homo sapiens (Human)	128
+Q16559	TAL2_HUMAN	reviewed	T-cell acute lymphocytic leukemia protein 2 (TAL-2) (Class A basic helix-loop-helix protein 19) (bHLHa19)	TAL2 BHLHA19	Homo sapiens (Human)	108
+P0C1Z6	TFPT_HUMAN	reviewed	TCF3 fusion partner (INO80 complex subunit F) (Protein FB1)	TFPT INO80F	Homo sapiens (Human)	253
+P11387	TOP1_HUMAN	reviewed	DNA topoisomerase 1 (EC 5.99.1.2) (DNA topoisomerase I)	TOP1	Homo sapiens (Human)	765
+P19532	TFE3_HUMAN	reviewed	Transcription factor E3 (Class E basic helix-loop-helix protein 33) (bHLHe33)	TFE3 BHLHE33	Homo sapiens (Human)	575
+P57738	TCTA_HUMAN	reviewed	T-cell leukemia translocation-altered gene protein (T-cell leukemia translocation-associated gene protein)	TCTA	Homo sapiens (Human)	103
+P17542	TAL1_HUMAN	reviewed	T-cell acute lymphocytic leukemia protein 1 (TAL-1) (Class A basic helix-loop-helix protein 17) (bHLHa17) (Stem cell protein) (T-cell leukemia/lymphoma protein 5)	TAL1 BHLHA17 SCL TCL5	Homo sapiens (Human)	331
+P15923	TFE2_HUMAN	reviewed	Transcription factor E2-alpha (Class B basic helix-loop-helix protein 21) (bHLHb21) (Immunoglobulin enhancer-binding factor E12/E47) (Immunoglobulin transcription factor 1) (Kappa-E2-binding factor) (Transcription factor 3) (TCF-3) (Transcription factor ITF-1)	TCF3 BHLHB21 E2A ITF1	Homo sapiens (Human)	654
+Q92734	TFG_HUMAN	reviewed	Protein TFG (TRK-fused gene protein)	TFG	Homo sapiens (Human)	400
+Q8IZP1	TBC3A_HUMAN	reviewed	TBC1 domain family member 3 (Prostate cancer gene 17 protein) (Protein TRE17-alpha) (Rab GTPase-activating protein PRC17)	TBC1D3 PRC17 TBC1D3A	Homo sapiens (Human)	549
+P56279	TCL1A_HUMAN	reviewed	T-cell leukemia/lymphoma protein 1A (Oncogene TCL-1) (Oncogene TCL1) (Protein p14 TCL1)	TCL1A TCL1	Homo sapiens (Human)	114
+P31314	TLX1_HUMAN	reviewed	T-cell leukemia homeobox protein 1 (Homeobox protein Hox-11) (Proto-oncogene TCL-3) (T-cell leukemia/lymphoma protein 3)	TLX1 HOX11 TCL3	Homo sapiens (Human)	330
+P06753	TPM3_HUMAN	reviewed	Tropomyosin alpha-3 chain (Gamma-tropomyosin) (Tropomyosin-3) (Tropomyosin-5) (hTM5)	TPM3	Homo sapiens (Human)	285
+Q02223	TNR17_HUMAN	reviewed	Tumor necrosis factor receptor superfamily member 17 (B-cell maturation protein) (CD antigen CD269)	TNFRSF17 BCM BCMA	Homo sapiens (Human)	184
+O94972	TRI37_HUMAN	reviewed	E3 ubiquitin-protein ligase TRIM37 (EC 2.3.2.27) (Mulibrey nanism protein) (RING-type E3 ubiquitin transferase TRIM37) (Tripartite motif-containing protein 37)	TRIM37 KIAA0898 MUL POB1	Homo sapiens (Human)	964
+P12270	TPR_HUMAN	reviewed	Nucleoprotein TPR (Megator) (NPC-associated intranuclear protein) (Translocated promoter region protein)	TPR	Homo sapiens (Human)	2363
+P14373	TRI27_HUMAN	reviewed	Zinc finger protein RFP (EC 2.3.2.27) (RING finger protein 76) (RING-type E3 ubiquitin transferase TRIM27) (Ret finger protein) (Tripartite motif-containing protein 27)	TRIM27 RFP RNF76	Homo sapiens (Human)	513
+P15498	VAV_HUMAN	reviewed	Proto-oncogene vav	VAV1 VAV	Homo sapiens (Human)	845
+P30530	UFO_HUMAN	reviewed	Tyrosine-protein kinase receptor UFO (EC 2.7.10.1) (AXL oncogene)	AXL UFO	Homo sapiens (Human)	894
+Q13107	UBP4_HUMAN	reviewed	Ubiquitin carboxyl-terminal hydrolase 4 (EC 3.4.19.12) (Deubiquitinating enzyme 4) (Ubiquitin thioesterase 4) (Ubiquitin-specific-processing protease 4) (Ubiquitous nuclear protein homolog)	USP4 UNP UNPH	Homo sapiens (Human)	963
+Q9BZH6	WDR11_HUMAN	reviewed	WD repeat-containing protein 11 (Bromodomain and WD repeat-containing protein 2) (WD repeat-containing protein 15)	WDR11 BRWD2 KIAA1351 WDR15	Homo sapiens (Human)	1224
+P56703	WNT3_HUMAN	reviewed	Proto-oncogene Wnt-3 (Proto-oncogene Int-4 homolog)	WNT3 INT4	Homo sapiens (Human)	355
+P04628	WNT1_HUMAN	reviewed	Proto-oncogene Wnt-1 (Proto-oncogene Int-1 homolog)	WNT1 INT1	Homo sapiens (Human)	370
+O95388	WISP1_HUMAN	reviewed	WNT1-inducible-signaling pathway protein 1 (WISP-1) (CCN family member 4) (Wnt-1-induced secreted protein)	WISP1 CCN4	Homo sapiens (Human)	367
+Q9GZV5	WWTR1_HUMAN	reviewed	WW domain-containing transcription regulator protein 1 (Transcriptional coactivator with PDZ-binding motif)	WWTR1 TAZ	Homo sapiens (Human)	400
+P07947	YES_HUMAN	reviewed	Tyrosine-protein kinase Yes (EC 2.7.10.2) (Proto-oncogene c-Yes) (p61-Yes)	YES1 YES	Homo sapiens (Human)	543
+P46937	YAP1_HUMAN	reviewed	Transcriptional coactivator YAP1 (Yes-associated protein 1) (Protein yorkie homolog) (Yes-associated protein YAP65 homolog)	YAP1 YAP65	Homo sapiens (Human)	504
+Q96K83	ZN521_HUMAN	reviewed	Zinc finger protein 521 (Early hematopoietic zinc finger protein) (LYST-interacting protein 3)	ZNF521 EHZF LIP3	Homo sapiens (Human)	1311
+A2RRD8	ZN320_HUMAN	reviewed	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	509
+Q05516	ZBT16_HUMAN	reviewed	Zinc finger and BTB domain-containing protein 16 (Promyelocytic leukemia zinc finger protein) (Zinc finger protein 145) (Zinc finger protein PLZF)	ZBTB16 PLZF ZNF145	Homo sapiens (Human)	673
+P60568	IL2_HUMAN	reviewed	Interleukin-2 (IL-2) (T-cell growth factor) (TCGF) (Aldesleukin)	IL2	Homo sapiens (Human)	153
+Q86VZ6	JAZF1_HUMAN	reviewed	Juxtaposed with another zinc finger protein 1 (TAK1-interacting protein 27) (Zinc finger protein 802)	JAZF1 TIP27 ZNF802	Homo sapiens (Human)	243
+Q92794	KAT6A_HUMAN	reviewed	Histone acetyltransferase KAT6A (EC 2.3.1.48) (MOZ, YBF2/SAS3, SAS2 and TIP60 protein 3) (MYST-3) (Monocytic leukemia zinc finger protein) (Runt-related transcription factor-binding protein 2) (Zinc finger protein 220)	KAT6A MOZ MYST3 RUNXBP2 ZNF220	Homo sapiens (Human)	2004
+P05412	JUN_HUMAN	reviewed	Transcription factor AP-1 (Activator protein 1) (AP1) (Proto-oncogene c-Jun) (V-jun avian sarcoma virus 17 oncogene homolog) (p39)	JUN	Homo sapiens (Human)	331
+O60674	JAK2_HUMAN	reviewed	Tyrosine-protein kinase JAK2 (EC 2.7.10.2) (Janus kinase 2) (JAK-2)	JAK2	Homo sapiens (Human)	1132
+Q969G2	LHX4_HUMAN	reviewed	LIM/homeobox protein Lhx4 (LIM homeobox protein 4)	LHX4	Homo sapiens (Human)	390
+Q99732	LITAF_HUMAN	reviewed	Lipopolysaccharide-induced tumor necrosis factor-alpha factor (LPS-induced TNF-alpha factor) (Small integral membrane protein of lysosome/late endosome) (p53-induced gene 7 protein)	LITAF PIG7 SIMPLE	Homo sapiens (Human)	161
+P06239	LCK_HUMAN	reviewed	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (Protein YT16) (Proto-oncogene Lck) (T cell-specific protein-tyrosine kinase) (p56-LCK)	LCK	Homo sapiens (Human)	509
+Q9Y5Q3	MAFB_HUMAN	reviewed	Transcription factor MafB (Maf-B) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog B)	MAFB KRML	Homo sapiens (Human)	323
+P41279	M3K8_HUMAN	reviewed	Mitogen-activated protein kinase kinase kinase 8 (EC 2.7.11.25) (Cancer Osaka thyroid oncogene) (Proto-oncogene c-Cot) (Serine/threonine-protein kinase cot) (Tumor progression locus 2) (TPL-2)	MAP3K8 COT ESTF	Homo sapiens (Human)	467
+Q8NHW3	MAFA_HUMAN	reviewed	Transcription factor MafA (Pancreatic beta-cell-specific transcriptional activator) (Transcription factor RIPE3b1) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog A)	MAFA	Homo sapiens (Human)	353
+P04201	MAS_HUMAN	reviewed	Proto-oncogene Mas	MAS1 MAS	Homo sapiens (Human)	325
+O15068	MCF2L_HUMAN	reviewed	Guanine nucleotide exchange factor DBS (DBL's big sister) (MCF2-transforming sequence-like protein)	MCF2L KIAA0362 OST	Homo sapiens (Human)	1137
+P10911	MCF2_HUMAN	reviewed	Proto-oncogene DBL (Proto-oncogene MCF-2) [Cleaved into: MCF2-transforming protein; DBL-transforming protein]	MCF2 DBL	Homo sapiens (Human)	925
+P12980	LYL1_HUMAN	reviewed	Protein lyl-1 (Class A basic helix-loop-helix protein 18) (bHLHa18) (Lymphoblastic leukemia-derived sequence 1)	LYL1 BHLHA18	Homo sapiens (Human)	280
+P07948	LYN_HUMAN	reviewed	Tyrosine-protein kinase Lyn (EC 2.7.10.2) (Lck/Yes-related novel protein tyrosine kinase) (V-yes-1 Yamaguchi sarcoma viral related oncogene homolog) (p53Lyn) (p56Lyn)	LYN JTK8	Homo sapiens (Human)	512
+O75444	MAF_HUMAN	reviewed	Transcription factor Maf (Proto-oncogene c-Maf) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog)	MAF	Homo sapiens (Human)	373
+Q12866	MERTK_HUMAN	reviewed	Tyrosine-protein kinase Mer (EC 2.7.10.1) (Proto-oncogene c-Mer) (Receptor tyrosine kinase MerTK)	MERTK MER	Homo sapiens (Human)	999
+Q00987	MDM2_HUMAN	reviewed	E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Hdm2) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2)	MDM2	Homo sapiens (Human)	491
+Q8NDY4	MDS2_HUMAN	reviewed	Myelodysplastic syndrome 2 translocation-associated protein	MDS2	Homo sapiens (Human)	140
+Q6P1Q0	LTMD1_HUMAN	reviewed	LETM1 domain-containing protein 1 (Cervical cancer 1 proto-oncogene protein p40) (Cervical cancer proto-oncogene 2 protein) (HCCR-1) (HCRR-2)	LETMD1	Homo sapiens (Human)	360
+Q969V6	MKL1_HUMAN	reviewed	MKL/myocardin-like protein 1 (Megakaryoblastic leukemia 1 protein) (Megakaryocytic acute leukemia protein) (Myocardin-related transcription factor A) (MRTF-A)	MKL1 KIAA1438 MAL	Homo sapiens (Human)	931
+P08581	MET_HUMAN	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Homo sapiens (Human)	1390
+P00540	MOS_HUMAN	reviewed	Proto-oncogene serine/threonine-protein kinase mos (EC 2.7.11.1) (Oocyte maturation factor mos) (Proto-oncogene c-Mos)	MOS	Homo sapiens (Human)	346
+P56278	MTCP1_HUMAN	reviewed	Protein p13 MTCP-1 (p13MTCP1) (Mature T-cell proliferation-1 type B1) (MTCP-1 type B1)	MTCP1 C6.1B	Homo sapiens (Human)	107
+Q06455	MTG8_HUMAN	reviewed	Protein CBFA2T1 (Cyclin-D-related protein) (Eight twenty one protein) (Protein ETO) (Protein MTG8) (Zinc finger MYND domain-containing protein 2)	RUNX1T1 AML1T1 CBFA2T1 CDR ETO MTG8 ZMYND2	Homo sapiens (Human)	604
+O96028	NSD2_HUMAN	reviewed	Histone-lysine N-methyltransferase NSD2 (EC 2.1.1.43) (Multiple myeloma SET domain-containing protein) (MMSET) (Nuclear SET domain-containing protein 2) (Protein trithorax-5) (Wolf-Hirschhorn syndrome candidate 1 protein)	NSD2 KIAA1090 MMSET TRX5 WHSC1	Homo sapiens (Human)	1365
+P35658	NU214_HUMAN	reviewed	Nuclear pore complex protein Nup214 (214 kDa nucleoporin) (Nucleoporin Nup214) (Protein CAN)	NUP214 CAIN CAN KIAA0023	Homo sapiens (Human)	2090
+Q92570	NR4A3_HUMAN	reviewed	Nuclear receptor subfamily 4 group A member 3 (Mitogen-induced nuclear orphan receptor) (Neuron-derived orphan receptor 1) (Nuclear hormone receptor NOR-1)	NR4A3 CHN CSMF MINOR NOR1 TEC	Homo sapiens (Human)	626
+Q9BZ95	NSD3_HUMAN	reviewed	Histone-lysine N-methyltransferase NSD3 (EC 2.1.1.43) (Nuclear SET domain-containing protein 3) (Protein whistle) (WHSC1-like 1 isoform 9 with methyltransferase activity to lysine) (Wolf-Hirschhorn syndrome candidate 1-like protein 1) (WHSC1-like protein 1)	NSD3 WHSC1L1 DC28	Homo sapiens (Human)	1437
+Q96L73	NSD1_HUMAN	reviewed	Histone-lysine N-methyltransferase, H3 lysine-36 and H4 lysine-20 specific (EC 2.1.1.43) (Androgen receptor coactivator 267 kDa protein) (Androgen receptor-associated protein of 267 kDa) (H3-K36-HMTase) (H4-K20-HMTase) (Lysine N-methyltransferase 3B) (Nuclear receptor-binding SET domain-containing protein 1) (NR-binding SET domain-containing protein)	NSD1 ARA267 KMT3B	Homo sapiens (Human)	2696
+P23760	PAX3_HUMAN	reviewed	Paired box protein Pax-3 (HuP2)	PAX3 HUP2	Homo sapiens (Human)	479
+P01127	PDGFB_HUMAN	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide) (Proto-oncogene c-Sis) (Becaplermin)	PDGFB PDGF2 SIS	Homo sapiens (Human)	241
+P23759	PAX7_HUMAN	reviewed	Paired box protein Pax-7 (HuP1)	PAX7 HUP1	Homo sapiens (Human)	505
+P40424	PBX1_HUMAN	reviewed	Pre-B-cell leukemia transcription factor 1 (Homeobox protein PBX1) (Homeobox protein PRL)	PBX1 PRL	Homo sapiens (Human)	430
+Q15154	PCM1_HUMAN	reviewed	Pericentriolar material 1 protein (PCM-1) (hPCM-1)	PCM1	Homo sapiens (Human)	2024
+Q02548	PAX5_HUMAN	reviewed	Paired box protein Pax-5 (B-cell-specific transcription factor) (BSAP)	PAX5	Homo sapiens (Human)	391
+Q9HBE1	PATZ1_HUMAN	reviewed	POZ-, AT hook-, and zinc finger-containing protein 1 (BTB/POZ domain zinc finger transcription factor) (Protein kinase A RI subunit alpha-associated protein) (Zinc finger and BTB domain-containing protein 19) (Zinc finger protein 278) (Zinc finger sarcoma gene protein)	PATZ1 PATZ RIAZ ZBTB19 ZNF278 ZSG	Homo sapiens (Human)	687
+Q9GZP0	PDGFD_HUMAN	reviewed	Platelet-derived growth factor D (PDGF-D) (Iris-expressed growth factor) (Spinal cord-derived growth factor B) (SCDGF-B) [Cleaved into: Platelet-derived growth factor D, latent form (PDGFD latent form); Platelet-derived growth factor D, receptor-binding form (PDGFD receptor-binding form)]	PDGFD IEGF SCDGFB MSTP036 UNQ1899/PRO4345	Homo sapiens (Human)	370
+Q13951	PEBB_HUMAN	reviewed	Core-binding factor subunit beta (CBF-beta) (Polyomavirus enhancer-binding protein 2 beta subunit) (PEA2-beta) (PEBP2-beta) (SL3-3 enhancer factor 1 subunit beta) (SL3/AKV core-binding factor beta subunit)	CBFB	Homo sapiens (Human)	182
+P16234	PGFRA_HUMAN	reviewed	Platelet-derived growth factor receptor alpha (PDGF-R-alpha) (PDGFR-alpha) (EC 2.7.10.1) (Alpha platelet-derived growth factor receptor) (Alpha-type platelet-derived growth factor receptor) (CD140 antigen-like family member A) (CD140a antigen) (Platelet-derived growth factor alpha receptor) (Platelet-derived growth factor receptor 2) (PDGFR-2) (CD antigen CD140a)	PDGFRA PDGFR2 RHEPDGFRA	Homo sapiens (Human)	1089
+P09619	PGFRB_HUMAN	reviewed	Platelet-derived growth factor receptor beta (PDGF-R-beta) (PDGFR-beta) (EC 2.7.10.1) (Beta platelet-derived growth factor receptor) (Beta-type platelet-derived growth factor receptor) (CD140 antigen-like family member B) (Platelet-derived growth factor receptor 1) (PDGFR-1) (CD antigen CD140b)	PDGFRB PDGFR PDGFR1	Homo sapiens (Human)	1106
+Q9P1W9	PIM2_HUMAN	reviewed	Serine/threonine-protein kinase pim-2 (EC 2.7.11.1) (Pim-2h)	PIM2	Homo sapiens (Human)	311
+P35232	PHB_HUMAN	reviewed	Prohibitin	PHB	Homo sapiens (Human)	272
+Q13492	PICAL_HUMAN	reviewed	Phosphatidylinositol-binding clathrin assembly protein (Clathrin assembly lymphoid myeloid leukemia protein)	PICALM CALM	Homo sapiens (Human)	652
+P42336	PK3CA_HUMAN	reviewed	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PI3-kinase subunit alpha) (PI3K-alpha) (PI3Kalpha) (PtdIns-3-kinase subunit alpha) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha) (PtdIns-3-kinase subunit p110-alpha) (p110alpha) (Phosphoinositide-3-kinase catalytic alpha polypeptide) (Serine/threonine protein kinase PIK3CA) (EC 2.7.11.1)	PIK3CA	Homo sapiens (Human)	1068
+Q6DJT9	PLAG1_HUMAN	reviewed	Zinc finger protein PLAG1 (Pleiomorphic adenoma gene 1 protein)	PLAG1	Homo sapiens (Human)	500
+P11309	PIM1_HUMAN	reviewed	Serine/threonine-protein kinase pim-1 (EC 2.7.11.1)	PIM1	Homo sapiens (Human)	404
+Q86V86	PIM3_HUMAN	reviewed	Serine/threonine-protein kinase pim-3 (EC 2.7.11.1)	PIM3	Homo sapiens (Human)	326
+P29590	PML_HUMAN	reviewed	Protein PML (Promyelocytic leukemia protein) (RING finger protein 71) (Tripartite motif-containing protein 19)	PML MYL PP8675 RNF71 TRIM19	Homo sapiens (Human)	882
+Q92733	PRCC_HUMAN	reviewed	Proline-rich protein PRCC (Papillary renal cell carcinoma translocation-associated gene protein)	PRCC TPRC	Homo sapiens (Human)	491
+Q9NZH5	PTTG2_HUMAN	reviewed	Securin-2 (Pituitary tumor-transforming gene 2 protein)	PTTG2	Homo sapiens (Human)	202
+P10826	RARB_HUMAN	reviewed	Retinoic acid receptor beta (RAR-beta) (HBV-activated protein) (Nuclear receptor subfamily 1 group B member 2) (RAR-epsilon)	RARB HAP NR1B2	Homo sapiens (Human)	455
+P01116	RASK_HUMAN	reviewed	GTPase KRas (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]	KRAS KRAS2 RASK2	Homo sapiens (Human)	189
+P25791	RBTN2_HUMAN	reviewed	Rhombotin-2 (Cysteine-rich protein TTG-2) (LIM domain only protein 2) (LMO-2) (T-cell translocation protein 2)	LMO2 RBTN2 RBTNL1 RHOM2 TTG2	Homo sapiens (Human)	158
+P61006	RAB8A_HUMAN	reviewed	Ras-related protein Rab-8A (Oncogene c-mel)	RAB8A MEL RAB8	Homo sapiens (Human)	207
+P01112	RASH_HUMAN	reviewed	GTPase HRas (H-Ras-1) (Ha-Ras) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]	HRAS HRAS1	Homo sapiens (Human)	189
+O95997	PTTG1_HUMAN	reviewed	Securin (Esp1-associated protein) (Pituitary tumor-transforming gene 1 protein) (Tumor-transforming protein 1) (hPTTG)	PTTG1 EAP1 PTTG TUTR1	Homo sapiens (Human)	202
+Q9NZH4	PTTG3_HUMAN	reviewed	Putative pituitary tumor-transforming gene 3 protein (hPTTG3) (Securin-3) (rcPTTG1)	PTTG3P PTTG3	Homo sapiens (Human)	202
+P10276	RARA_HUMAN	reviewed	Retinoic acid receptor alpha (RAR-alpha) (Nuclear receptor subfamily 1 group B member 1)	RARA NR1B1	Homo sapiens (Human)	462
+Q96T37	RBM15_HUMAN	reviewed	Putative RNA-binding protein 15 (One-twenty two protein 1) (RNA-binding motif protein 15)	RBM15 OTT OTT1	Homo sapiens (Human)	977
+P25800	RBTN1_HUMAN	reviewed	Rhombotin-1 (Cysteine-rich protein TTG-1) (LIM domain only protein 1) (LMO-1) (T-cell translocation protein 1)	LMO1 RBTN1 RHOM1 TTG1	Homo sapiens (Human)	156
+P07949	RET_HUMAN	reviewed	Proto-oncogene tyrosine-protein kinase receptor Ret (EC 2.7.10.1) (Cadherin family member 12) (Proto-oncogene c-Ret) [Cleaved into: Soluble RET kinase fragment; Extracellular cell-membrane anchored RET cadherin 120 kDa fragment]	RET CDHF12 CDHR16 PTC RET51	Homo sapiens (Human)	1114
+P04049	RAF1_HUMAN	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1)	RAF1 RAF	Homo sapiens (Human)	648
+P01111	RASN_HUMAN	reviewed	GTPase NRas (Transforming protein N-Ras)	NRAS HRAS1	Homo sapiens (Human)	189
+Q92804	RBP56_HUMAN	reviewed	TATA-binding protein-associated factor 2N (68 kDa TATA-binding protein-associated factor) (TAF(II)68) (TAFII68) (RNA-binding protein 56)	TAF15 RBP56 TAF2N	Homo sapiens (Human)	592
+Q16385	SSX2_HUMAN	reviewed	Protein SSX2 (Cancer/testis antigen 5.2) (CT5.2) (Synovial sarcoma, X breakpoint 2) (Tumor antigen HOM-MEL-40)	SSX2 SSX2A; SSX2B	Homo sapiens (Human)	188
+Q15468	STIL_HUMAN	reviewed	SCL-interrupting locus protein (TAL-1-interrupting locus protein)	STIL SIL	Homo sapiens (Human)	1287
+Q6J9G0	STYK1_HUMAN	reviewed	Tyrosine-protein kinase STYK1 (EC 2.7.10.2) (Novel oncogene with kinase domain) (Protein PK-unique) (Serine/threonine/tyrosine kinase 1)	STYK1 NOK	Homo sapiens (Human)	422
+P49589	SYCC_HUMAN	reviewed	Cysteine--tRNA ligase, cytoplasmic (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)	CARS	Homo sapiens (Human)	748
+Q15532	SSXT_HUMAN	reviewed	Protein SSXT (Protein SYT) (Synovial sarcoma translocated to X chromosome protein)	SS18 SSXT SYT	Homo sapiens (Human)	418
+P35125	UBP6_HUMAN	reviewed	Ubiquitin carboxyl-terminal hydrolase 6 (EC 3.4.19.12) (Deubiquitinating enzyme 6) (Proto-oncogene TRE-2) (Ubiquitin thioesterase 6) (Ubiquitin-specific-processing protease 6)	USP6 HRP1 TRE2	Homo sapiens (Human)	1406
+P17713	STK_HYDVU	reviewed	Tyrosine-protein kinase STK (EC 2.7.10.2) (P57-STK)	STK	Hydra vulgaris (Hydra) (Hydra attenuata)	509
+P49033	MYC_HYLLA	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Hylobates lar (Common gibbon) (White-handed gibbon)	439
+Q108U6	MET_LOXAF	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Loxodonta africana (African elephant)	1382
+Q95M30	HCK_MACFA	reviewed	Tyrosine-protein kinase HCK (EC 2.7.10.2) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p56-HCK)	HCK	Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey)	504
+Q2PFS4	MAFB_MACFA	reviewed	Transcription factor MafB (Maf-B) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog B)	MAFB QnpA-17255	Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey)	323
+B8XIA5	MYC_MACMU	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Macaca mulatta (Rhesus macaque)	439
+P22555	MYC_MARMO	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Marmota monax (Woodchuck)	439
+Q61976	MYCN_MARMO	reviewed	N-myc proto-oncogene protein (N-myc1)	MYCN NMYC NMYC1	Marmota monax (Woodchuck)	460
+P20389	MYC2_MARMO	reviewed	N-myc 2 proto-oncogene protein	N-MYC2	Marmota monax (Woodchuck)	454
+P01125	REL_MELGA	reviewed	Proto-oncogene c-Rel (p68) (Fragment)	REL	Meleagris gallopavo (Common turkey)	538
+Q9QYC8	ENTP5_MESAU	reviewed	Ectonucleoside triphosphate diphosphohydrolase 5 (NTPDase 5) (EC 3.6.1.6) (ER-UDPase) (Guanosine-diphosphatase ENTPD5) (GDPase ENTPD5) (EC 3.6.1.42) (Nucleoside diphosphatase) (Proto-oncogene cph) (Uridine-diphosphatase ENTPD5) (UDPase ENTPD5)	ENTPD5 CD39L4 CPH	Mesocricetus auratus (Golden hamster)	469
+Q60553	ERBB2_MESAU	reviewed	Receptor tyrosine-protein kinase erbB-2 (EC 2.7.10.1) (Proto-oncogene Neu) (Proto-oncogene c-ErbB-2) (p185erbB2) (CD antigen CD340)	ERBB2 NEU	Mesocricetus auratus (Golden hamster)	1254
+O88479	FOS_MESAU	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Mesocricetus auratus (Golden hamster)	381
+Q60524	MDM2_MESAU	reviewed	E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2) (Fragment)	MDM2	Mesocricetus auratus (Golden hamster)	466
+Q60529	RASH_MESAU	reviewed	GTPase HRas (H-Ras-1) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed] (Fragment)	HRAS HRAS1	Mesocricetus auratus (Golden hamster)	96
+Q2QL89	MET_MICMU	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Microcebus murinus (Lesser mouse lemur) (Gray Mouse Lemur)	1382
+Q95ME4	RASN_MONDO	reviewed	GTPase NRas (Transforming protein N-Ras)	NRAS	Monodelphis domestica (Gray short-tailed opossum)	189
+Q07983	RASK_MONDO	reviewed	GTPase KRas (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]	KRAS	Monodelphis domestica (Gray short-tailed opossum)	188
+Q09YK0	MET_MUNMU	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Muntiacus muntjak (Barking deer) (Indian muntjac)	1382
+O88312	AGR2_MOUSE	reviewed	Anterior gradient protein 2 homolog (AG-2) (mAG-2) (Protein Gob-4) (Secreted cement gland protein XAG-2 homolog)	Agr2 Gob4	Mus musculus (Mouse)	175
+P00520	ABL1_MOUSE	reviewed	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	Abl1 Abl	Mus musculus (Mouse)	1123
+O88573	AFF1_MOUSE	reviewed	AF4/FMR2 family member 1 (Proto-oncogene AF4) (Protein AF-4)	Aff1 Mllt2 Mllt2h	Mus musculus (Mouse)	1216
+Q9ESC8	AFF4_MOUSE	reviewed	AF4/FMR2 family member 4	Aff4 Alf4	Mus musculus (Mouse)	1160
+Q60875	ARHG2_MOUSE	reviewed	Rho guanine nucleotide exchange factor 2 (Guanine nucleotide exchange factor H1) (GEF-H1) (LBC'S first cousin) (Lymphoid blast crisis-like 1) (Oncogene LFC) (Rhobin)	Arhgef2 Kiaa0651 Lbcl1 Lfc	Mus musculus (Mouse)	985
+P04627	ARAF_MOUSE	reviewed	Serine/threonine-protein kinase A-Raf (EC 2.7.11.1) (Proto-oncogene A-Raf)	Araf A-raf Araf1	Mus musculus (Mouse)	604
+Q9Z206	ARHG8_MOUSE	reviewed	Neuroepithelial cell-transforming gene 1 protein (Rho guanine nucleotide exchange factor 8)	Net1 Arhgef8	Mus musculus (Mouse)	595
+P97477	AURKA_MOUSE	reviewed	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora family kinase 1) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (Ipl1- and aurora-related kinase 1) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase Ayk1) (Serine/threonine-protein kinase aurora-A)	Aurka Aik Airk Ark1 Aura Ayk1 Btak Iak1 Stk15 Stk6	Mus musculus (Mouse)	395
+Q6PAJ1	BCR_MOUSE	reviewed	Breakpoint cluster region protein (EC 2.7.11.1)	Bcr Kiaa3017	Mus musculus (Mouse)	1270
+P25916	BMI1_MOUSE	reviewed	Polycomb complex protein BMI-1 (Polycomb group RING finger protein 4)	Bmi1 Bmi-1 Pcgf4	Mus musculus (Mouse)	324
+P62325	BTG1_MOUSE	reviewed	Protein BTG1 (B-cell translocation gene 1 protein)	Btg1	Mus musculus (Mouse)	171
+P28028	BRAF_MOUSE	reviewed	Serine/threonine-protein kinase B-raf (EC 2.7.11.1) (Proto-oncogene B-Raf)	Braf B-raf	Mus musculus (Mouse)	804
+Q8BXV2	BRI3B_MOUSE	reviewed	BRI3-binding protein (I3-binding protein)	Bri3bp	Mus musculus (Mouse)	253
+P22682	CBL_MOUSE	reviewed	E3 ubiquitin-protein ligase CBL (EC 2.3.2.27) (Casitas B-lineage lymphoma proto-oncogene) (Proto-oncogene c-Cbl) (RING-type E3 ubiquitin transferase CBL) (Signal transduction protein CBL)	Cbl	Mus musculus (Mouse)	913
+Q8R4E9	CDT1_MOUSE	reviewed	DNA replication factor Cdt1 (Double parked homolog) (DUP) (Retroviral insertion site 2 protein)	Cdt1 Ris2	Mus musculus (Mouse)	557
+P30285	CDK4_MOUSE	reviewed	Cyclin-dependent kinase 4 (EC 2.7.11.22) (CRK3) (Cell division protein kinase 4) (PSK-J3)	Cdk4 Crk3	Mus musculus (Mouse)	303
+P09581	CSF1R_MOUSE	reviewed	Macrophage colony-stimulating factor 1 receptor (CSF-1 receptor) (CSF-1-R) (CSF-1R) (M-CSF-R) (EC 2.7.10.1) (Proto-oncogene c-Fms) (CD antigen CD115)	Csf1r Csfmr Fms	Mus musculus (Mouse)	977
+Q64010	CRK_MOUSE	reviewed	Adapter molecule crk (Proto-oncogene c-Crk) (p38)	Crk Crko	Mus musculus (Mouse)	304
+Q9QZ73	DCNL1_MOUSE	reviewed	DCN1-like protein 1 (DCUN1 domain-containing protein 1) (Defective in cullin neddylation protein 1-like protein 1) (Testis-specific protein 3)	Dcun1d1 Dcun1l1 Rp42 Tes3	Mus musculus (Mouse)	259
+Q07139	ECT2_MOUSE	reviewed	Protein ECT2 (Epithelial cell-transforming sequence 2 oncogene)	Ect2 mKIAA4037	Mus musculus (Mouse)	913
+P39688	FYN_MOUSE	reviewed	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	Fyn	Mus musculus (Mouse)	537
+Q8VD58	EVI2B_MOUSE	reviewed	Protein EVI2B (Ecotropic viral integration site 2B protein) (EVI-2B) (CD antigen CD361)	Evi2b	Mus musculus (Mouse)	444
+Q8K2P2	FA83A_MOUSE	reviewed	Protein FAM83A	Fam83a	Mus musculus (Mouse)	436
+P20934	EVI2A_MOUSE	reviewed	Protein EVI2A (Ecotropic viral integration site 2A protein) (EVI-2A)	Evi2a Evi-2 Evi-2a Evi2	Mus musculus (Mouse)	223
+Q0VBM2	FA83B_MOUSE	reviewed	Protein FAM83B	Fam83b	Mus musculus (Mouse)	1012
+P27577	ETS1_MOUSE	reviewed	Protein C-ets-1 (p54)	Ets1 Ets-1	Mus musculus (Mouse)	440
+P15037	ETS2_MOUSE	reviewed	Protein C-ets-2	Ets2	Mus musculus (Mouse)	468
+P14234	FGR_MOUSE	reviewed	Tyrosine-protein kinase Fgr (EC 2.7.10.2) (Proto-oncogene c-Fgr) (p55-Fgr)	Fgr	Mus musculus (Mouse)	517
+Q9WVH4	FOXO3_MOUSE	reviewed	Forkhead box protein O3	Foxo3 Fkhr2 Foxo3a	Mus musculus (Mouse)	672
+P70451	FER_MOUSE	reviewed	Tyrosine-protein kinase Fer (EC 2.7.10.2) (Proto-oncogene c-Fer) (p94-Fer)	Fer Fert2	Mus musculus (Mouse)	823
+P01101	FOS_MOUSE	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	Fos	Mus musculus (Mouse)	380
+P16879	FES_MOUSE	reviewed	Tyrosine-protein kinase Fes/Fps (EC 2.7.10.2) (Proto-oncogene c-Fes)	Fes Fps	Mus musculus (Mouse)	822
+P21803	FGFR2_MOUSE	reviewed	Fibroblast growth factor receptor 2 (FGFR-2) (EC 2.7.10.1) (Keratinocyte growth factor receptor) (KGFR) (CD antigen CD332)	Fgfr2 Bek Ect1	Mus musculus (Mouse)	821
+P21658	FGF6_MOUSE	reviewed	Fibroblast growth factor 6 (FGF-6) (Heparin secretory-transforming protein 2) (HST-2) (HSTF-2) (Heparin-binding growth factor 6) (HBGF-6)	Fgf6 Fgf-6 Hstf2	Mus musculus (Mouse)	208
+Q9D7I8	FA83D_MOUSE	reviewed	Protein FAM83D	Fam83d	Mus musculus (Mouse)	585
+P70339	FRAT1_MOUSE	reviewed	Proto-oncogene FRAT1 (Frequently rearranged in advanced T-cell lymphomas 1) (FRAT-1)	Frat1	Mus musculus (Mouse)	274
+P26323	FLI1_MOUSE	reviewed	Friend leukemia integration 1 transcription factor (Retroviral integration site protein Fli-1)	Fli1 Fli-1	Mus musculus (Mouse)	452
+P05524	FGF3_MOUSE	reviewed	Fibroblast growth factor 3 (FGF-3) (Heparin-binding growth factor 3) (HBGF-3) (Proto-oncogene Int-2)	Fgf3 Fgf-3 Int-2	Mus musculus (Mouse)	245
+P11403	FGF4_MOUSE	reviewed	Fibroblast growth factor 4 (FGF-4) (Heparin-binding growth factor 4) (HBGF-4) (K-fibroblast growth factor)	Fgf4 Fgf-4 Kfgf	Mus musculus (Mouse)	202
+Q00342	FLT3_MOUSE	reviewed	Receptor-type tyrosine-protein kinase FLT3 (EC 2.7.10.1) (FL cytokine receptor) (Fetal liver kinase 2) (FLK-2) (Fms-like tyrosine kinase 3) (FLT-3) (Tyrosine-protein kinase receptor flk-2) (CD antigen CD135)	Flt3 Flk-2 Flt-3	Mus musculus (Mouse)	1000
+P47806	GLI1_MOUSE	reviewed	Zinc finger protein GLI1 (Glioma-associated oncogene homolog)	Gli1 Gli	Mus musculus (Mouse)	1111
+Q9Z1S3	GRP1_MOUSE	reviewed	RAS guanyl-releasing protein 1 (Calcium and DAG-regulated guanine nucleotide exchange factor II) (CalDAG-GEFII) (Ras guanyl-releasing protein)	Rasgrp1 Rasgrp	Mus musculus (Mouse)	795
+P08103	HCK_MOUSE	reviewed	Tyrosine-protein kinase HCK (EC 2.7.10.2) (B-cell/myeloid kinase) (BMK) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p56-HCK/p59-HCK)	Hck	Mus musculus (Mouse)	524
+Q62074	KPCI_MOUSE	reviewed	Protein kinase C iota type (EC 2.7.11.13) (Atypical protein kinase C-lambda/iota) (aPKC-lambda/iota) (nPKC-iota)	Prkci Pkcl	Mus musculus (Mouse)	595
+P06876	MYB_MOUSE	reviewed	Transcriptional activator Myb (Proto-oncogene c-Myb)	Myb	Mus musculus (Mouse)	636
+P01108	MYC_MOUSE	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	Myc	Mus musculus (Mouse)	439
+P03966	MYCN_MOUSE	reviewed	N-myc proto-oncogene protein	Mycn Nmyc Nmyc1	Mus musculus (Mouse)	462
+Q60698	SKI_MOUSE	reviewed	Ski oncogene (Proto-oncogene c-Ski)	Ski	Mus musculus (Mouse)	725
+Q78DX7	ROS1_MOUSE	reviewed	Proto-oncogene tyrosine-protein kinase ROS (EC 2.7.10.1) (Proto-oncogene c-Ros) (Proto-oncogene c-Ros-1) (Receptor tyrosine kinase c-ros oncogene 1) (c-Ros receptor tyrosine kinase)	Ros1 Ros Ros-1	Mus musculus (Mouse)	2340
+Q99MY0	SPZ1_MOUSE	reviewed	Spermatogenic leucine zipper protein 1 (BHLH-Zip transcription factor SPZ1) (Spermatogenic Zip 1)	Spz1	Mus musculus (Mouse)	378
+P05480	SRC_MOUSE	reviewed	Neuronal proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src)	Src	Mus musculus (Mouse)	541
+P17433	SPI1_MOUSE	reviewed	Transcription factor PU.1 (31 kDa-transforming protein) (SFFV proviral integration 1 protein)	Spi1 Sfpi-1 Sfpi1	Mus musculus (Mouse)	272
+P22091	TAL1_MOUSE	reviewed	T-cell acute lymphocytic leukemia protein 1 homolog (TAL-1) (Stem cell protein)	Tal1 Scl Tal-1	Mus musculus (Mouse)	329
+Q64127	TIF1A_MOUSE	reviewed	Transcription intermediary factor 1-alpha (TIF1-alpha) (EC 2.3.2.27) (E3 ubiquitin-protein ligase Trim24) (RING-type E3 ubiquitin transferase TIF1-alpha) (Tripartite motif-containing protein 24)	Trim24 Tif1 Tif1a	Mus musculus (Mouse)	1051
+Q9D658	TP4A3_MOUSE	reviewed	Protein tyrosine phosphatase type IVA 3 (EC 3.1.3.48) (Protein-tyrosine phosphatase 4a3) (Protein-tyrosine phosphatase of regenerating liver 3) (PRL-3)	Ptp4a3 Prl3	Mus musculus (Mouse)	173
+F6ZDS4	TPR_MOUSE	reviewed	Nucleoprotein TPR (NPC-associated intranuclear protein) (Translocated promoter region and nuclear basket protein)	Tpr	Mus musculus (Mouse)	2431
+P35123	UBP4_MOUSE	reviewed	Ubiquitin carboxyl-terminal hydrolase 4 (EC 3.4.19.12) (Deubiquitinating enzyme 4) (Ubiquitin thioesterase 4) (Ubiquitin-specific-processing protease 4) (Ubiquitous nuclear protein)	Usp4 Unp	Mus musculus (Mouse)	962
+P27870	VAV_MOUSE	reviewed	Proto-oncogene vav (p95vav)	Vav1 Vav	Mus musculus (Mouse)	845
+O54775	WISP1_MOUSE	reviewed	WNT1-inducible-signaling pathway protein 1 (WISP-1) (CCN family member 4) (ELM-1)	Wisp1 Ccn4 Elm1	Mus musculus (Mouse)	367
+P04426	WNT1_MOUSE	reviewed	Proto-oncogene Wnt-1 (Proto-oncogene Int-1)	Wnt1 Int-1 Wnt-1	Mus musculus (Mouse)	370
+P17553	WNT3_MOUSE	reviewed	Proto-oncogene Wnt-3 (Proto-oncogene Int-4)	Wnt3 Int-4 Wnt-3	Mus musculus (Mouse)	355
+P46938	YAP1_MOUSE	reviewed	Transcriptional coactivator YAP1 (Yes-associated protein 1) (Protein yorkie homolog) (Yes-associated protein YAP65 homolog)	Yap1 Yap Yap65	Mus musculus (Mouse)	488
+Q04736	YES_MOUSE	reviewed	Tyrosine-protein kinase Yes (EC 2.7.10.2) (Proto-oncogene c-Yes) (p61-Yes)	Yes1 Yes	Mus musculus (Mouse)	541
+Q6KAS7	ZN521_MOUSE	reviewed	Zinc finger protein 521 (Ecotropic viral integration site 3 protein)	Znf521 Evi3 Zfp521	Mus musculus (Mouse)	1311
+Q6GV12	KDSR_MOUSE	reviewed	3-ketodihydrosphingosine reductase (KDS reductase) (EC 1.1.1.102) (3-dehydrosphinganine reductase) (Follicular variant translocation protein 1 homolog) (FVT-1)	Kdsr Fvt1	Mus musculus (Mouse)	332
+P05627	JUN_MOUSE	reviewed	Transcription factor AP-1 (AH119) (Activator protein 1) (AP1) (Proto-oncogene c-Jun) (V-jun avian sarcoma virus 17 oncogene homolog) (Jun A)	Jun	Mus musculus (Mouse)	334
+P05532	KIT_MOUSE	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	Kit Sl	Mus musculus (Mouse)	979
+P06240	LCK_MOUSE	reviewed	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	Lck Lsk-t	Mus musculus (Mouse)	509
+P54841	MAFB_MOUSE	reviewed	Transcription factor MafB (Maf-B) (Kreisler) (Segmentation protein Kr) (Transcription factor Maf-1) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog B)	Mafb Krml Maf1	Mus musculus (Mouse)	323
+P54843	MAF_MOUSE	reviewed	Transcription factor Maf (Proto-oncogene c-Maf) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog)	Maf Maf2	Mus musculus (Mouse)	370
+P25911	LYN_MOUSE	reviewed	Tyrosine-protein kinase Lyn (EC 2.7.10.2) (V-yes-1 Yamaguchi sarcoma viral related oncogene homolog) (p53Lyn) (p56Lyn)	Lyn	Mus musculus (Mouse)	512
+Q9JLJ0	LITAF_MOUSE	reviewed	Lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog (LPS-induced TNF-alpha factor homolog) (Estrogen-enhanced transcript protein) (mEET) (LITAF-like protein) (NEDD4 WW domain-binding protein 3)	Litaf N4wbp3 Tbx1	Mus musculus (Mouse)	161
+Q8CF90	MAFA_MOUSE	reviewed	Transcription factor MafA (Pancreatic beta-cell-specific transcriptional activator) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog A)	Mafa	Mus musculus (Mouse)	359
+Q924L1	LTMD1_MOUSE	reviewed	LETM1 domain-containing protein 1 (Cervical cancer receptor) (MCC-32)	Letmd1 Mccr	Mus musculus (Mouse)	360
+Q07174	M3K8_MOUSE	reviewed	Mitogen-activated protein kinase kinase kinase 8 (EC 2.7.11.25) (Cancer Osaka thyroid oncogene) (Proto-oncogene c-Cot) (Serine/threonine-protein kinase cot) (Tumor progression locus 2) (TPL-2)	Map3k8 Cot Tpl2	Mus musculus (Mouse)	467
+P30554	MAS_MOUSE	reviewed	Proto-oncogene Mas	Mas1 Mas Mas-1	Mus musculus (Mouse)	324
+Q60805	MERTK_MOUSE	reviewed	Tyrosine-protein kinase Mer (EC 2.7.10.1) (Proto-oncogene c-Mer) (Receptor tyrosine kinase MerTK)	Mertk Mer	Mus musculus (Mouse)	994
+Q64096	MCF2L_MOUSE	reviewed	Guanine nucleotide exchange factor DBS (DBL's big sister) (MCF2-transforming sequence-like protein)	Mcf2l Dbs	Mus musculus (Mouse)	1149
+P23804	MDM2_MOUSE	reviewed	E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2)	Mdm2	Mus musculus (Mouse)	489
+P16056	MET_MOUSE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	Met	Mus musculus (Mouse)	1379
+Q60954	MEIS1_MOUSE	reviewed	Homeobox protein Meis1 (Myeloid ecotropic viral integration site 1)	Meis1	Mus musculus (Mouse)	390
+P00536	MOS_MOUSE	reviewed	Proto-oncogene serine/threonine-protein kinase mos (EC 2.7.11.1) (Oocyte maturation factor mos) (Proto-oncogene c-Mos)	Mos	Mus musculus (Mouse)	390
+P31695	NOTC4_MOUSE	reviewed	Neurogenic locus notch homolog protein 4 (Notch 4) [Cleaved into: Transforming protein Int-3; Notch 4 extracellular truncation; Notch 4 intracellular domain]	Notch4 Int-3 Int3	Mus musculus (Mouse)	1964
+Q925I7	PDGFD_MOUSE	reviewed	Platelet-derived growth factor D (PDGF-D) (Spinal cord-derived growth factor B) (SCDGF-B) [Cleaved into: Platelet-derived growth factor D, latent form (PDGFD latent form); Platelet-derived growth factor D, receptor-binding form (PDGFD receptor-binding form)]	Pdgfd Scdgfb	Mus musculus (Mouse)	370
+P31240	PDGFB_MOUSE	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide) (Proto-oncogene c-Sis)	Pdgfb Sis	Mus musculus (Mouse)	241
+Q62070	PIM2_MOUSE	reviewed	Serine/threonine-protein kinase pim-2 (EC 2.7.11.1)	Pim2 Pim-2	Mus musculus (Mouse)	370
+P26618	PGFRA_MOUSE	reviewed	Platelet-derived growth factor receptor alpha (PDGF-R-alpha) (PDGFR-alpha) (EC 2.7.10.1) (Alpha platelet-derived growth factor receptor) (Alpha-type platelet-derived growth factor receptor) (CD140 antigen-like family member A) (Platelet-derived growth factor alpha receptor) (CD antigen CD140a)	Pdgfra	Mus musculus (Mouse)	1089
+P06803	PIM1_MOUSE	reviewed	Serine/threonine-protein kinase pim-1 (EC 2.7.11.1)	Pim1 Pim-1	Mus musculus (Mouse)	397
+P42337	PK3CA_MOUSE	reviewed	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PI3-kinase subunit alpha) (PI3K-alpha) (PI3Kalpha) (PtdIns-3-kinase subunit alpha) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha) (PtdIns-3-kinase subunit p110-alpha) (p110alpha) (Phosphoinositide-3-kinase catalytic alpha polypeptide) (Serine/threonine protein kinase PIK3CA) (EC 2.7.11.1)	Pik3ca	Mus musculus (Mouse)	1068
+Q9QYE0	PLAG1_MOUSE	reviewed	Zinc finger protein PLAG1 (Pleiomorphic adenoma gene 1 protein)	Plag1	Mus musculus (Mouse)	499
+P58750	PIM3_MOUSE	reviewed	Serine/threonine-protein kinase pim-3 (EC 2.7.11.1)	Pim3	Mus musculus (Mouse)	326
+Q9CQJ7	PTTG1_MOUSE	reviewed	Securin (Pituitary tumor-transforming gene 1 protein)	Pttg1 Pttg	Mus musculus (Mouse)	199
+P55258	RAB8A_MOUSE	reviewed	Ras-related protein Rab-8A (Oncogene c-mel)	Rab8a Mel Rab8	Mus musculus (Mouse)	207
+Q99N57	RAF1_MOUSE	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1)	Raf1 Craf	Mus musculus (Mouse)	648
+Q8R367	RERG_MOUSE	reviewed	Ras-related and estrogen-regulated growth inhibitor	Rerg	Mus musculus (Mouse)	199
+P08556	RASN_MOUSE	reviewed	GTPase NRas (Transforming protein N-Ras)	Nras	Mus musculus (Mouse)	189
+P35546	RET_MOUSE	reviewed	Proto-oncogene tyrosine-protein kinase receptor Ret (EC 2.7.10.1) (Proto-oncogene c-Ret) [Cleaved into: Soluble RET kinase fragment; Extracellular cell-membrane anchored RET cadherin 120 kDa fragment]	Ret	Mus musculus (Mouse)	1115
+P15307	REL_MOUSE	reviewed	Proto-oncogene c-Rel	Rel	Mus musculus (Mouse)	587
+Q61411	RASH_MOUSE	reviewed	GTPase HRas (H-Ras-1) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]	Hras Hras1	Mus musculus (Mouse)	189
+P32883	RASK_MOUSE	reviewed	GTPase KRas (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]	Kras Kras2	Mus musculus (Mouse)	189
+Q9QUI0	RHOA_MOUSE	reviewed	Transforming protein RhoA	Rhoa Arha Arha2	Mus musculus (Mouse)	193
+Q6J9G1	STYK1_MOUSE	reviewed	Tyrosine-protein kinase STYK1 (EC 2.7.10.2) (Novel oncogene with kinase domain) (mNOK) (Serine/threonine/tyrosine kinase 1)	Styk1 Nok	Mus musculus (Mouse)	429
+Q07E24	MET_MUSPF	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Mustela putorius furo (European domestic ferret) (Mustela furo)	1382
+Q07E37	MET_NEONE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Neofelis nebulosa (Clouded leopard)	1382
+Q07DY1	MET_NOMLE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Nomascus leucogenys (Northern white-cheeked gibbon) (Hylobates leucogenys)	1390
+Q07E01	MET_ORNAN	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Ornithorhynchus anatinus (Duckbill platypus)	1382
+Q09YN5	MET_RABIT	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Oryctolagus cuniculus (Rabbit)	1382
+Q2QLH6	MET_OTOGA	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Otolemur garnettii (Small-eared galago) (Garnett's greater bushbaby)	1382
+B2MVY4	CDK4_SHEEP	reviewed	Cyclin-dependent kinase 4 (EC 2.7.11.22) (Cell division protein kinase 4)		Ovis aries (Sheep)	303
+O02761	FOS_SHEEP	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos) (Fragment)	FOS	Ovis aries (Sheep)	195
+Q28566	MYC_SHEEP	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Ovis aries (Sheep)	439
+Q09YI9	MET_SHEEP	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Ovis aries (Sheep)	1384
+Q95229	PDGFB_SHEEP	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide)	PDGFB	Ovis aries (Sheep)	241
+A1YG22	MYC_PANPA	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Pan paniscus (Pygmy chimpanzee) (Bonobo)	439
+P23583	MYC_PANTR	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Pan troglodytes (Chimpanzee)	439
+Q2QLF1	MET_PANTR	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Pan troglodytes (Chimpanzee)	1390
+Q2QD15	PTTG3_PANTR	reviewed	Putative pituitary tumor-transforming gene 3 protein (Securin-3) (rcPTTG1)	PTTG3	Pan troglodytes (Chimpanzee)	202
+A2T767	PTTG1_PANTR	reviewed	Securin (Pituitary tumor-transforming gene 1 protein)	PTTG1	Pan troglodytes (Chimpanzee)	202
+A0M8R7	MET_PAPAN	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Papio anubis (Olive baboon)	1381
+Q56TT7	FOS_PHOCM	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Phodopus campbelli (Campbell's dwarf Russian hamster)	381
+Q56TN0	FOS_PHORO	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Phodopus roborovskii (Roborovski's desert hamster) (Cricetulus roborovskii)	381
+Q1A1A4	FOXG1_PIPRU	reviewed	Forkhead box protein G1 (FoxG1)	FOXG1	Pipistrellus rusticus (Rusty pipistrelle)	484
+Q2QLC0	MET_PLEMO	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Plecturocebus moloch (Dusky titi monkey) (Callicebus moloch)	1381
+Q5R7P1	AGR2_PONAB	reviewed	Anterior gradient protein 2 homolog	AGR2	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	175
+Q5R8L2	BMI1_PONAB	reviewed	Polycomb complex protein BMI-1 (Polycomb group RING finger protein 4)	BMI1 PCGF4	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	326
+Q5RFQ5	DDX6_PONAB	reviewed	Probable ATP-dependent RNA helicase DDX6 (EC 3.6.4.13) (DEAD box protein 6)	DDX6	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	483
+Q5R4K9	KPCI_PONAB	reviewed	Protein kinase C iota type (EC 2.7.11.13) (nPKC-iota)	PRKCI	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	596
+Q5REY6	RHOA_PONAB	reviewed	Transforming protein RhoA	RHOA	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	193
+Q2IBD8	MET_PONAB	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	1390
+Q5R5M7	RAF1_PONAB	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1)	RAF1	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	648
+Q5RD87	RASN_PONAB	reviewed	GTPase NRas (Transforming protein N-Ras)	NRAS	Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)	189
+A2T7L5	MYC_PONPY	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Pongo pygmaeus (Bornean orangutan)	439
+Q2QD14	PTTG3_PONPY	reviewed	Putative pituitary tumor-transforming gene 3 protein (Securin-3) (rcPTTG1)	PTTG3	Pongo pygmaeus (Bornean orangutan)	202
+Q9MZT8	MYC_PTEHP	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Pteropus hypomelanus (Island flying fox) (Variable flying fox)	440
+Q5FVC2	ARHG2_RAT	reviewed	Rho guanine nucleotide exchange factor 2 (Guanine nucleotide exchange factor H1) (GEF-H1)	Arhgef2	Rattus norvegicus (Rat)	985
+P14056	ARAF_RAT	reviewed	Serine/threonine-protein kinase A-Raf (EC 2.7.11.1) (Proto-oncogene A-Raf) (Proto-oncogene A-Raf-1)	Araf A-raf Araf1	Rattus norvegicus (Rat)	604
+P59241	AURKA_RAT	reviewed	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A) (ratAurA)	Aurka Aik Airk Ark1 Aura Ayk1 Btak Iak1 Stk15 Stk6	Rattus norvegicus (Rat)	397
+P35426	CDK4_RAT	reviewed	Cyclin-dependent kinase 4 (EC 2.7.11.22) (Cell division protein kinase 4) (PSK-J3)	Cdk4	Rattus norvegicus (Rat)	303
+Q63768	CRK_RAT	reviewed	Adapter molecule crk (Proto-oncogene c-Crk) (p38)	Crk Crko	Rattus norvegicus (Rat)	304
+Q00495	CSF1R_RAT	reviewed	Macrophage colony-stimulating factor 1 receptor (CSF-1 receptor) (CSF-1-R) (CSF-1R) (M-CSF-R) (EC 2.7.10.1) (Proto-oncogene c-Fms) (CD antigen CD115)	Csf1r Csfmr Fms	Rattus norvegicus (Rat)	978
+P41156	ETS1_RAT	reviewed	Protein C-ets-1 (p54)	Ets1 Ets-1	Rattus norvegicus (Rat)	441
+P06494	ERBB2_RAT	reviewed	Receptor tyrosine-protein kinase erbB-2 (EC 2.7.10.1) (Epidermal growth factor receptor-related protein) (Proto-oncogene Neu) (Proto-oncogene c-ErbB-2) (p185erbB2) (p185neu) (CD antigen CD340)	Erbb2 Neu	Rattus norvegicus (Rat)	1257
+Q6P6U0	FGR_RAT	reviewed	Tyrosine-protein kinase Fgr (EC 2.7.10.2) (Proto-oncogene c-Fgr) (p55-Fgr)	Fgr	Rattus norvegicus (Rat)	517
+P12841	FOS_RAT	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	Fos	Rattus norvegicus (Rat)	380
+P50545	HCK_RAT	reviewed	Tyrosine-protein kinase HCK (EC 2.7.10.2) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p56-HCK) (p56Hck) (p59Hck)	Hck	Rattus norvegicus (Rat)	524
+F1M7Y5	KPCI_RAT	reviewed	Protein kinase C iota type (EC 2.7.11.13) (Atypical protein kinase C-lambda/iota) (aPKC-lambda/iota) (nPKC-iota)	Prkci Pkcl	Rattus norvegicus (Rat)	596
+P17325	JUN_RAT	reviewed	Transcription factor AP-1 (Activator protein 1) (AP1) (Proto-oncogene c-Jun) (V-jun avian sarcoma virus 17 oncogene homolog)	Jun Rjg-9	Rattus norvegicus (Rat)	334
+Q63379	MYCN_RAT	reviewed	N-myc proto-oncogene protein	Mycn Nmyc Nmyc1	Rattus norvegicus (Rat)	462
+P09416	MYC_RAT	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	Myc	Rattus norvegicus (Rat)	439
+P61589	RHOA_RAT	reviewed	Transforming protein RhoA	Rhoa Arha Arha2	Rattus norvegicus (Rat)	193
+Q9WUD9	SRC_RAT	reviewed	Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src)	Src	Rattus norvegicus (Rat)	536
+F1MA98	TPR_RAT	reviewed	Nucleoprotein TPR (Megator) (NPC-associated intranuclear protein) (Translocated promoter region protein)	Tpr	Rattus norvegicus (Rat)	2360
+P54100	VAV_RAT	reviewed	Proto-oncogene vav (p95)	Vav1 Vav	Rattus norvegicus (Rat)	843
+Q99PP0	WISP1_RAT	reviewed	WNT1-inducible-signaling pathway protein 1 (WISP-1) (CCN family member 4) (ELM-1)	Wisp1 Ccn4 Elm1	Rattus norvegicus (Rat)	367
+Q2EJA0	YAP1_RAT	reviewed	Transcriptional coactivator YAP1 (Yes-associated protein 1) (Protein yorkie homolog) (Yes-associated protein YAP65 homolog)	Yap1 Yap Yap65	Rattus norvegicus (Rat)	469
+P0C0T0	LITAF_RAT	reviewed	Lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog (LPS-induced TNF-alpha factor homolog) (Estrogen-enhanced transcript protein 1) (Eet-1)	Litaf	Rattus norvegicus (Rat)	161
+Q01621	LCK_RAT	reviewed	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	Lck	Rattus norvegicus (Rat)	509
+P12526	MAS_RAT	reviewed	Proto-oncogene Mas	Mas1 Mas Mas-1	Rattus norvegicus (Rat)	324
+Q07014	LYN_RAT	reviewed	Tyrosine-protein kinase Lyn (EC 2.7.10.2) (V-yes-1 Yamaguchi sarcoma viral related oncogene homolog) (p53Lyn) (p56Lyn)	Lyn	Rattus norvegicus (Rat)	512
+Q63562	M3K8_RAT	reviewed	Mitogen-activated protein kinase kinase kinase 8 (EC 2.7.11.25) (Tumor progression locus 2) (TPL-2)	Map3k8 Tpl2	Rattus norvegicus (Rat)	467
+P54842	MAFB_RAT	reviewed	Transcription factor MafB (Maf-B) (Transcription factor Maf-1) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog B)	Mafb Maf1	Rattus norvegicus (Rat)	323
+Q63406	MCF2L_RAT	reviewed	Guanine nucleotide exchange factor DBS (DBL's big sister) (MCF2-transforming sequence-like protein) (OST oncogene)	Mcf2l Ost	Rattus norvegicus (Rat)	1149
+P54844	MAF_RAT	reviewed	Transcription factor Maf (Proto-oncogene c-Maf) (Transcription factor Maf-2) (V-maf musculoaponeurotic fibrosarcoma oncogene homolog)	Maf Maf2	Rattus norvegicus (Rat)	369
+P97523	MET_RAT	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	Met	Rattus norvegicus (Rat)	1382
+P00539	MOS_RAT	reviewed	Proto-oncogene serine/threonine-protein kinase mos (EC 2.7.11.1) (Oocyte maturation factor mos) (Proto-oncogene c-Mos)	Mos	Rattus norvegicus (Rat)	339
+P57097	MERTK_RAT	reviewed	Tyrosine-protein kinase Mer (EC 2.7.10.1) (Proto-oncogene c-Mer) (Receptor tyrosine kinase MerTK)	Mertk Mer	Rattus norvegicus (Rat)	994
+Q05028	PDGFB_RAT	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide) (Fragment)	Pdgfb	Rattus norvegicus (Rat)	225
+O70444	PIM3_RAT	reviewed	Serine/threonine-protein kinase pim-3 (EC 2.7.11.1) (Kinase induced by depolarization) (Protein kinase Kid-1)	Pim3 Kid1	Rattus norvegicus (Rat)	326
+P20786	PGFRA_RAT	reviewed	Platelet-derived growth factor receptor alpha (PDGF-R-alpha) (PDGFR-alpha) (EC 2.7.10.1) (Alpha platelet-derived growth factor receptor) (Alpha-type platelet-derived growth factor receptor) (CD140 antigen-like family member A) (Platelet-derived growth factor alpha receptor) (CD antigen CD140a)	Pdgfra	Rattus norvegicus (Rat)	1088
+P26794	PIM1_RAT	reviewed	Serine/threonine-protein kinase pim-1 (EC 2.7.11.1)	Pim1 Pim-1	Rattus norvegicus (Rat)	313
+A0A0G2K344	PK3CA_RAT	reviewed	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PI3-kinase subunit alpha) (PI3K-alpha) (PI3Kalpha) (PtdIns-3-kinase subunit alpha) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha) (PtdIns-3-kinase subunit p110-alpha) (p110alpha) (Phosphoinositide-3-kinase catalytic alpha polypeptide) (Serine/threonine protein kinase PIK3CA) (EC 2.7.11.1)	Pik3ca	Rattus norvegicus (Rat)	1068
+Q5U2T6	PLAG1_RAT	reviewed	Zinc finger protein PLAG1 (Pleiomorphic adenoma gene 1 protein)	Plag1	Rattus norvegicus (Rat)	499
+P97613	PTTG1_RAT	reviewed	Securin (Pituitary tumor-transforming gene 1 protein)	Pttg1 Pttg	Rattus norvegicus (Rat)	199
+P20171	RASH_RAT	reviewed	GTPase HRas (H-Ras-1) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]	Hras Hras1	Rattus norvegicus (Rat)	189
+Q04970	RASN_RAT	reviewed	GTPase NRas (Transforming protein N-Ras)	Nras	Rattus norvegicus (Rat)	189
+P08644	RASK_RAT	reviewed	GTPase KRas (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]	Kras Kras2	Rattus norvegicus (Rat)	189
+P11345	RAF1_RAT	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1)	Raf1 Raf	Rattus norvegicus (Rat)	648
+Q2IBC0	MET_RHIFE	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Rhinolophus ferrumequinum (Greater horseshoe bat)	1381
+Q09YH7	MET_SAIBB	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Saimiri boliviensis boliviensis (Bolivian squirrel monkey)	1381
+Q95KR7	LCK_SAISC	reviewed	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	LCK	Saimiri sciureus (Common squirrel monkey)	509
+P54864	JUN_SERCA	reviewed	Transcription factor AP-1 (Proto-oncogene c-Jun)	JUN	Serinus canaria (Island canary) (Fringilla canaria)	314
+P26014	MYCN_SERCA	reviewed	N-myc proto-oncogene protein	MYCN	Serinus canaria (Island canary) (Fringilla canaria)	427
+Q64210	MYC2_SPEBE	reviewed	N-myc 2 proto-oncogene protein	N-MYC2	Spermophilus beecheyi (California ground squirrel) (Otospermophilus beecheyi)	454
+O19004	ARAF_PIG	reviewed	Serine/threonine-protein kinase A-Raf (EC 2.7.11.1) (Proto-oncogene A-Raf) (Proto-oncogene A-Raf-1)	ARAF ARAF1	Sus scrofa (Pig)	606
+B2DCZ9	ARHG2_PIG	reviewed	Rho guanine nucleotide exchange factor 2 (Guanine nucleotide exchange factor H1) (GEF-H1)	ARHGEF2	Sus scrofa (Pig)	961
+A5GFW1	AURKA_PIG	reviewed	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A)	AURKA AIK AIRK1 ARK1 AURA AYK1 BTAK IAK1 STK15 STK6	Sus scrofa (Pig)	402
+P79432	CDK4_PIG	reviewed	Cyclin-dependent kinase 4 (EC 2.7.11.22) (Cell division protein kinase 4)	CDK4	Sus scrofa (Pig)	303
+O97930	FOS_PIG	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	FOS	Sus scrofa (Pig)	380
+Q29031	MYC_PIG	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Sus scrofa (Pig)	439
+P56432	JUN_PIG	reviewed	Transcription factor AP-1 (Activator protein 1) (AP1) (Proto-oncogene c-Jun) (V-jun avian sarcoma virus 17 oncogene homolog)	JUN	Sus scrofa (Pig)	331
+Q2HWD6	KIT_PIG	reviewed	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (CD antigen CD117)	KIT	Sus scrofa (Pig)	972
+P50118	MOS_PIG	reviewed	Proto-oncogene serine/threonine-protein kinase mos (EC 2.7.11.1) (Oocyte maturation factor mos) (Proto-oncogene c-Mos)	MOS	Sus scrofa (Pig)	345
+Q2QLE0	MET_PIG	reviewed	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	MET	Sus scrofa (Pig)	1381
+P20034	PDGFB_PIG	reviewed	Platelet-derived growth factor subunit B (PDGF subunit B) (PDGF-2) (Platelet-derived growth factor B chain) (Platelet-derived growth factor beta polypeptide) (Fragment)	PDGFB	Sus scrofa (Pig)	15
+Q9BDP6	PTTG1_PIG	reviewed	Securin (Pituitary tumor-transforming gene 1 protein) (Fragment)	PTTG1 PTTG	Sus scrofa (Pig)	121
+Q2MJK3	RASN_PIG	reviewed	GTPase NRas (Transforming protein N-Ras)	NRAS	Sus scrofa (Pig)	189
+Q9MZT6	MYC_SYLFL	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Sylvilagus floridanus (Cottontail rabbit)	438
+Q9MZT7	MYC_TADBR	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Tadarida brasiliensis (Brazilian free-tailed bat)	439
+P53450	FOS_TAKRU	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	fos	Takifugu rubripes (Japanese pufferfish) (Fugu rubripes)	376
+Q91496	FOS_TETFL	reviewed	Proto-oncogene c-Fos (Cellular oncogene fos)	fos	Tetraodon fluviatilis (Green pufferfish) (Chelonodon fluviatilis)	374
+Q9MZT9	MYC_TUPGL	reviewed	Myc proto-oncogene protein (Proto-oncogene c-Myc) (Transcription factor p64)	MYC	Tupaia glis (Tree shrew)	439
+Q9I9A7	CDT1_XENLA	reviewed	DNA replication factor Cdt1 (XCDT1)	cdt1	Xenopus laevis (African clawed frog)	617
+P13406	FYN_XENLA	reviewed	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	fyn	Xenopus laevis (African clawed frog)	537
+P24793	MYCN_XENLA	reviewed	N-myc protein	mycn nmyc	Xenopus laevis (African clawed frog)	437
+Q02225	SKI_XENLA	reviewed	Ski oncogene (Proto-oncogene c-Ski)	ski	Xenopus laevis (African clawed frog)	717
+P12965	MOS_XENLA	reviewed	Serine/threonine-protein kinase mos (EC 2.7.11.1) (pp39-mos)	mos	Xenopus laevis (African clawed frog)	359
+Q91822	PIM3_XENLA	reviewed	Serine/threonine-protein kinase pim-3 (EC 2.7.11.1) (Pim-1)	pim3 pim1	Xenopus laevis (African clawed frog)	323
+P09560	RAF1_XENLA	reviewed	RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (C-RAF)	raf1 raf	Xenopus laevis (African clawed frog)	638
+P27446	FYN_XIPHE	reviewed	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	fyn	Xiphophorus helleri (Green swordtail)	537
+P13388	XMRK_XIPMA	reviewed	Melanoma receptor tyrosine-protein kinase (EC 2.7.10.1)	xmrk tu	Xiphophorus maculatus (Southern platyfish) (Platypoecilus maculatus)	1167
