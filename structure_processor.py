@@ -53,17 +53,18 @@ def getGeneAssociatedPDBStructures(organism, gene_name):
 
 
 
-def get_reference_chain(pdbid):
+def get_reference_chain(pdbid, geneIds):
     """
     returns chain 
     """
-    uniprotIdDict = uniprotIdsByGene[geneIdByPDB[pdbid]]
+    uniprotIdDict = geneIds
     atoms_header = prody.parsePDBHeader(pdbid)
     for polymer in atoms_header['polymers']:
-        uniprotRef = filter(lambda k: keggParser.database == 'UniProt', atoms_header[polymer.chid].dbrefs)
-        if len(uniprotRef) != 1:
+        uniprotRef = filter(lambda k: keggParser.database == 'UniProt', 
+            atoms_header[polymer.chid].dbrefs)
+        if len(uniprotRef) < 1:
             continue
-        if uniprotRef[0].accession in uniprotIdDict:
+        if len(set(map(lambda x: x [0].accession, uniprotRef)) & uniprotIdDict) > 0:
             return polymer.chid
     return None
 
@@ -78,36 +79,7 @@ def iterate_over_pairs(pdbid, ref_chid):
             continue
         yield (ref_chid, p.chid)
 
-def check_condition(pdbid, ref_chid, other_chid):
-    """
-    main condition for selection pair of chains based on interactions
-    return boolean value and interface information (to draw later)
-    """
-    #TODO: obsolete now. use getPairInformation instead
-    pass
 
-
-def get_candidates_for(pdbid, ref_chid):
-    """
-    Selects good pairs for ref_chid based on set of parameters
-    """
-    for (ref, other) in iterate_over_pairs(pdbid, ref_chid):
-        condition, interface_info = check_condition(pdbid, ref, other)
-        if condition:
-            yield other, interface_info
-
-
-def iterate_over_objects(organism, gene_names):
-    for gene_name in gene_names:
-        downloadedPDBs = getGeneAssociatedPDBStructures(organism, gene_name)     
-        for pdbid in downloadedPDBs:
-            chid = get_reference_chain(pdbid)
-            if chid is None:
-                continue # skip if there is no UniProt
-            for (other, interface_info) in get_candidates_for(pdbid, chid):
-                print(other)
-            #print(chid)
-    
   
 
 def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bond_cutoff=5):
@@ -130,7 +102,7 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     sulfur_pairs = []
     ## 1. select Cys atoms on oncogene
     for (r, ch2, distance) in prody.measure.contacts.findNeighbors(reference_atoms, covalent_bond_cutoff, pair_atoms):
-        if r.getElement() in ['S'] and r.getResname() in 'CYS':
+        if r.getResname() in 'CYS': # and r.getElement() in ['S'] :
             sulfur_pairs.append((r.getSerial(), ch2.getSerial()))
     # filtering: if there is no Cys, return nothing
     if len(sulfur_pairs) < 1:
@@ -138,8 +110,52 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     return (pdbid, reference_chain, set(ref_selection.getResnums()), 
         pair_chain, set(pair_selection.getResnums()), sulfur_pairs)    
     #prody.proteins.functions.showProtein(reference_atoms, pair_atoms);
+
+
+def check_condition(pdbid, ref_chid, other_chid):
+    """
+    main condition for selection pair of chains based on interactions
+    return boolean value and interface information (to draw later)
+    """
+    #TODO: obsolete now. use getPairInformation instead
+    (pdbid, ref, res_ref_no, pair_chain, ref, sulfur_pairs) = getPairInformation(pdbid, ref_chid, other_chid) 
+    if len(ref_chid) < 0 and len(ref_ch2) < 0:
+        return False, (p, r, no, pc, sr, rch)
+    if len(sulfur_pairs) < 0: return None
+    #else return 
+    pass 
+
+
+def get_candidates_for(pdbid, ref_chid):
+    """
+    Selects good pairs for ref_chid based on set of parameters
+    """
+    for (ref, other) in iterate_over_pairs(pdbid, ref_chid):
+        condition, interface_info = check_condition(pdbid, ref, other)
+        if condition:
+            yield other, interface_info
+
+
+def iterate_over_objects():
+    # 1. 
+    gene_info_file = "gene_name_to_gene_ids_pdb_ids.pickle"
+    if not os.path.exists(gene_info_file):
+        print("File %s couldn't be found" % gene_info_file)
+        return exit(1)
+    data = pickle.load(open(gene_info_file,"rb"))
+    set_pdb =  pickle.load(open('set_pdb.pickle', 'rb'))
     
-   
+    for gene_name in data:
+        (geneIds, pdbIds) = data[gene_name] 
+        downloadedPDBs = pdbIds & set_pdb
+        for pdbid in downloadedPDBs:
+            chid = get_reference_chain(pdbid, geneIds)
+            if chid is None:
+                continue # skip if there is no UniProt
+            for (other, interface_info) in get_candidates_for(pdbid, chid):
+                print(other)
+            #print(chid)
+    
 
 def renderTemplate(template, info):
     """
@@ -162,11 +178,26 @@ def renderTemplate(template, info):
             lines.append(s)
     if not os.path.exists("pictures"):
         os.mkdir("pictures")
-    with open(os.path.join("pictures", pdbid+".pml"), 'w') as f:
+    image = os.path.join("pictures"+reference+"_"+pair_chain+".pml")
+    with open(image, 'w') as f:
         for line in lines:
             f.write(line)
+    cmd([" ".join(["pymol -c", "pictures"+reference+"_"+pair_chain+".pml"])])
     pass
 
+
+from subprocess import call
+
+if __name__== "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("pdbid", help="PDBID", type=str)
+    parser.add_argument("oncogene_chain", help="oncogene chain", type=str)
+    #parser.add_argument("peptide_chain", help="peptide chain", type=str)
+    args = parser.parse_args()
+    iterate_over_pairs(pdbid, oncogene_chain)
+    info = getPairInformation(args.pdbid, args.oncogene_chain, args.peptide_chain)
+    #info = getPairInformation("2OSL", "L", "H")
+    renderTemplate("structure_view.pml.mustache", info)
 
 
 
