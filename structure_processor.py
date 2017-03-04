@@ -83,7 +83,7 @@ def check_condition(pdbid, ref_chid, other_chid):
     main condition for selection pair of chains based on interactions
     return boolean value and interface information (to draw later)
     """
-    
+    #TODO: obsolete now. use getPairInformation instead
     pass
 
 
@@ -108,14 +108,7 @@ def iterate_over_objects(organism, gene_names):
                 print(other)
             #print(chid)
     
-    
-# first group by polymer name
-# parts of the same antibody
-# what about small molecules? for now let's ignore them
-# 1. prepare - group by molecules
-
-
-# TODO: there might be 'SPLIT' in header. should check and save somewhere if this is present and process separately
+  
 
 def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bond_cutoff=5):
     """
@@ -131,6 +124,7 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     # next try to select everything
     ref_contacts = prody.measure.contacts.Contacts(reference_atoms)
     ref_selection = ref_contacts.select(cutoff, pair_atoms) # we need these atoms
+    print(ref_selection)
     pair_contacts = prody.measure.contacts.Contacts(pair_atoms)
     pair_selection = pair_contacts.select(cutoff, reference_atoms) # and these
     sulfur_pairs = []
@@ -138,6 +132,9 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     for (r, ch2, distance) in prody.measure.contacts.findNeighbors(reference_atoms, covalent_bond_cutoff, pair_atoms):
         if r.getElement() in ['S'] and r.getResname() in 'CYS':
             sulfur_pairs.append((r.getSerial(), ch2.getSerial()))
+    # filtering: if there is no Cys, return nothing
+    if len(sulfur_pairs) < 1:
+        return None
     return (pdbid, reference_chain, set(ref_selection.getResnums()), 
         pair_chain, set(pair_selection.getResnums()), sulfur_pairs)    
     #prody.proteins.functions.showProtein(reference_atoms, pair_atoms);
