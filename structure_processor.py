@@ -139,7 +139,7 @@ def iterate_over_pairs(pdbid, ref_chid):
 
   
 
-def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bond_cutoff=2.5):
+def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bond_cutoff=5):
     """
     1. reads pdb id from file
     2. selects atoms from pair of chains within cutoff
@@ -169,7 +169,7 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     #prody.proteins.functions.showProtein(reference_atoms, pair_atoms);
 
 
-def check_condition(pdbid, ref_chid, other_chid, bonds1=5, bonds2=2.5):
+def check_condition(pdbid, ref_chid, other_chid, bonds1=5, bonds2=5):
     """
     main condition for selection pair of chains based on interactions
     return boolean value and interface information (to draw later)
@@ -278,7 +278,7 @@ def appendToNotebook(template, info, gene_name):
     #cmd([" ".join(["pymol -c", "pictures"+reference+"_"+pair_chain+".pml"])])
     pass
 
-def doFilter(geneNames, b1=5, b2=2.5):
+def doFilter(geneNames, b1=5, b2=5):
     genesToReturn = []
     if os.path.exists("processed_genes.log"):
         with open("processed_genes.log") as f:
