@@ -1,5 +1,5 @@
 from bioservices.kegg import KEGG
-k = KEGG()
+keggParser = KEGG()
 
 import pickle
 import argparse
@@ -8,7 +8,7 @@ ORGANISM = "hsa"
 GENES = ["p53"] # sample gene
 PDB_PATH = "pdb"
 
-import os, prody, pystache
+import os, prody, pystache, logging
 
 if not os.path.exists(PDB_PATH):
     os.mkdir(PDB_PATH)
@@ -16,8 +16,14 @@ if not os.path.exists(PDB_PATH):
     # if it is created, this check should be removed.
 prody.proteins.localpdb.pathPDBFolder(PDB_PATH)
 
+keggCache = dict()
+cache_file_name = "kegg_info_cache.pickle"
+if os.path.exists(cache_file_name):
+    keggCache = pickle.load(open(data_file, "rb"))
 
 def getKeggInfoForGene(organism, gene_name):
+        if gene_name  in keggCache:
+            return keggCache[gene_name]
         geneIdsInPathways = [ 
             x.split()[0]
             for x in keggParser.find(organism, gene_name).split("\n") 
@@ -25,6 +31,8 @@ def getKeggInfoForGene(organism, gene_name):
         geneIdByPDB = dict()
         # for now store sequence information for gene in dictionary also
         uniprotIdsByGene = dict()
+        pdbIdsByGene = dict()
+        aaSequencesByGene = dict()
         for geneId in geneIdsInPathways:
             geneInfo = keggParser.parse(keggParser.get(geneId))
             if 'DBLINKS' in geneInfo:
@@ -34,37 +42,70 @@ def getKeggInfoForGene(organism, gene_name):
             if 'STRUCTURE' in geneInfo:
                 for pdb_name in geneInfo['STRUCTURE']['PDB'].split():
                     geneIdByPDB[pdb_name] = geneId
+                pdbIdsByGene[geneId] = geneInfo['STRUCTURE']['PDB'].split()
+            if 'AASEQ' in geneInfo:
+                aaSequencesByGene[geneId] = geneInfo['AASEQ'].replace(' ', '')
         pdbIds = list(geneIdByPDB)
-        return pdbIds, geneIdByPDB, uniprotIdsByGene
+        keggCache[gene_name] = (pdbIds, geneIdByPDB, uniprotIdsByGene, aaSequencesByGene, pdbIdsByGene)
+        with open(cache_file_name, "wb") as f:
+            pickle.dump(keggCache, f)  
+        return pdbIds, geneIdByPDB, uniprotIdsByGene, aaSequencesByGene, pdbIdsByGene
 
 
 def getGeneAssociatedPDBStructures(organism, gene_name):
     (pdbIds, geneIdByPDB, uniprotIdsByGene) = getKeggInfoForGene(organism, gene_name)
 
     # next - download all structures if they are not present and were not previously processed 
-
+    pdbs = prody.proteins.localpdb.fetchPDB(pdbIds)
+    if isinstance(pdbs, str):
+        pdbs = [pdbs]
     # all other checks are skipped now, will appear here later
-    downloadedPDBs = zip(pdbIds, prody.proteins.localpdb.fetchPDB(pdbIds)) # use filtered structures list
+    downloadedPDBs = zip(pdbIds, pdbs) # use filtered structures list
     # TODO: some of PDB identifiers correspond to structures which has only .cif files. 
     # in case if they are present we should check fetched PDB files and to store PDBIDs 
     # which were not downloaded somewhere.
-    downloadedPDBs = map(lambda x: x[0], filter(lambda x: x[1] is not None, downloadedPDBs)) # this filters zero values
+    downloadedPDBs = list(map(lambda x: x[0], filter(lambda x: x[1] is not None, downloadedPDBs))) # this filters zero values
     return downloadedPDBs
 
 
+def downloadPdbList(pdbIds):
+    if isinstance(pdbIds, set):
+        return downloadPdbList(list(pdbIds))
+    # next - download all structures if they are not present and were not previously processed 
+    pdbs = prody.proteins.localpdb.fetchPDB(pdbIds)
+    if isinstance(pdbs, str):
+        pdbs = [pdbs]
+    if pdbs is None:
+        pdbs = []
+    # all other checks are skipped now, will appear here later
+    downloadedPDBs = zip(pdbIds, pdbs) # use filtered structures list
+    # TODO: some of PDB identifiers correspond to structures which has only .cif files. 
+    # in case if they are present we should check fetched PDB files and to store PDBIDs 
+    # which were not downloaded somewhere.
+    downloadedPDBs = list(map(lambda x: x[0], filter(lambda x: x[1] is not None, downloadedPDBs))) # this filters zero values
+    return downloadedPDBs
 
 def get_reference_chain(pdbid, geneIds):
     """
     returns chain 
     """
     uniprotIdDict = geneIds
-    atoms_header = prody.parsePDBHeader(pdbid)
+    try:
+        atoms, atoms_header = prody.parsePDB(pdbid, header=True)
+    except:
+        with open("problem_with_parsing.txt", 'a') as f:
+            f.write(pdbid+"\n")
+        return None
+    #print(list(atoms_header))
     for polymer in atoms_header['polymers']:
-        uniprotRef = filter(lambda k: keggParser.database == 'UniProt', 
-            atoms_header[polymer.chid].dbrefs)
+        uniprotRef = [ r.accession
+            for r in atoms_header[polymer.chid].dbrefs
+            if r.database == 'UniProt'
+            ]
         if len(uniprotRef) < 1:
             continue
-        if len(set(map(lambda x: x [0].accession, uniprotRef)) & uniprotIdDict) > 0:
+        print(uniprotRef, uniprotIdDict)
+        if len(set(uniprotRef) & set(uniprotIdDict)) > 0:
             return polymer.chid
     return None
 
@@ -82,7 +123,7 @@ def iterate_over_pairs(pdbid, ref_chid):
 
   
 
-def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bond_cutoff=5):
+def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bond_cutoff=2.5):
     """
     1. reads pdb id from file
     2. selects atoms from pair of chains within cutoff
@@ -96,7 +137,7 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     # next try to select everything
     ref_contacts = prody.measure.contacts.Contacts(reference_atoms)
     ref_selection = ref_contacts.select(cutoff, pair_atoms) # we need these atoms
-    print(ref_selection)
+    
     pair_contacts = prody.measure.contacts.Contacts(pair_atoms)
     pair_selection = pair_contacts.select(cutoff, reference_atoms) # and these
     sulfur_pairs = []
@@ -112,16 +153,19 @@ def getPairInformation(pdbid, reference_chain, pair_chain, cutoff=5, covalent_bo
     #prody.proteins.functions.showProtein(reference_atoms, pair_atoms);
 
 
-def check_condition(pdbid, ref_chid, other_chid):
+def check_condition(pdbid, ref_chid, other_chid, bonds1=5, bonds2=2.5):
     """
     main condition for selection pair of chains based on interactions
     return boolean value and interface information (to draw later)
     """
     #TODO: obsolete now. use getPairInformation instead
-    (pdbid, ref, res_ref_no, pair_chain, ref, sulfur_pairs) = getPairInformation(pdbid, ref_chid, other_chid) 
-    if len(ref_chid) < 0 and len(ref_ch2) < 0:
-        return False, (p, r, no, pc, sr, rch)
-    if len(sulfur_pairs) < 0: return None
+    (pdbid, ref, res_ref_no, pair_chain, pair_res_no, sulfur_pairs) = getPairInformation(
+        pdbid, ref_chid, other_chid, bonds1, bonds2) 
+    if len(res_ref_no) < 0 and len(pair_res_no) < 0:
+        return False, (pdbid, ref, res_ref_no, pair_chain, pair_res_no, sulfur_pairs)
+    if len(sulfur_pairs) < 0:
+        return False, None
+    return True, (pdbid, ref, res_ref_no, pair_chain, pair_res_no, sulfur_pairs)
     #else return 
     pass 
 
@@ -137,6 +181,7 @@ def get_candidates_for(pdbid, ref_chid):
 
 
 def iterate_over_objects():
+    #TODO: obsolete
     # 1. 
     gene_info_file = "gene_name_to_gene_ids_pdb_ids.pickle"
     if not os.path.exists(gene_info_file):
@@ -153,7 +198,8 @@ def iterate_over_objects():
             if chid is None:
                 continue # skip if there is no UniProt
             for (other, interface_info) in get_candidates_for(pdbid, chid):
-                yield other
+                pass
+                #yield other
             #print(chid)
     
 
@@ -164,9 +210,9 @@ def renderTemplate(template, info):
     """
     renderer = pystache.Renderer()
     lines = []
+    (pdbid, reference, ref_selection, pair_chain, pair_selection, sulfur_pairs) = info
     with open(template, 'r') as k:
         for i  in k.readlines():
-            (pdbid, reference, ref_selection, pair_chain, pair_selection, sulfur_pairs) = info
             s = renderer.render(i, {
                 'pdbid': pdbid,
                 'onco_chain': reference,
@@ -186,15 +232,82 @@ def renderTemplate(template, info):
     pass
 
 
+def doFilter(geneNames, b1=5, b2=2.5):
+    if os.path.exists("processed_genes.log"):
+        with open("processed_genes.log") as f:
+            processedGenes = set([line.strip() for line in f])
+    else:
+        processedGenes=set()
+    
+    gene_info_file = "gene_name_to_gene_ids_pdb_ids_filtered_by_cys.pickle"
+    if not os.path.exists(gene_info_file):
+        print("File %s couldn't be found" % gene_info_file)
+        return exit(1)
+    genes = pickle.load(open(gene_info_file, "rb"))
+    set_pdb =  pickle.load(open('set_pdb.pickle', 'rb'))
+    
+    for gene_name in geneNames:
+        if gene_name in processedGenes:
+            continue
+        print(gene_name)
+        (geneIds, pdbIds) = genes[gene_name]
+        downloaded = downloadPdbList(pdbIds)
+        print(len(downloaded))
+        with open("unavailable_pdb_list.txt", 'a') as f:
+            for pdbid in (set(pdbIds) - set(downloaded)):
+                f.write("%s\n"% pdbid)
+        
+        with open("downloaded_pdbs.txt", 'a') as g:
+            g.write(gene_name + " " + " ".join(downloaded)+"\n")
+        
+        has_results = False
+        for pdbid in downloaded:
+            chid = get_reference_chain(pdbid, geneIds)
+            if chid is None:
+                with open("bad_pdb_for_gene_list.txt", 'a') as g:
+                    g.write(gene_name + " " + pdbid + "\n")
+                continue # skip if there is no UniProt
+            print(11111)
+            no_contacts = True
+            for (ref, other) in iterate_over_pairs(pdbid, chid):
+                condition, interface_info = check_condition(pdbid, ref, other, b1, b2)
+                if condition:
+                    no_contacts = False
+                    has_results=True
+                    with open("ppi_list.txt", 'a') as f:
+                        f.write(" ".join([
+                        pdbid, ref, other, str(b1), str(b2)
+                        ])+"\n")
+                    renderTemplate("structure_view.pml.mustache", interface_info)
+            if no_contacts:
+                with open("no_contacts_with_gene.txt", 'a') as g:
+                    g.write(gene_name + " " + pdbid +" " + chid+ + "\n")
+        if has_results:
+            print("gene", gene_name, "has some Cys related things") 
+        else: 
+            print("no results for gene", gene_name)           
+        # add to already processed list
+        #logging.debug(gene_name)
+        with open("processed_genes.log", 'a') as f:
+            f.write(gene_name+"\n")
+    pass
+    
+    
 from subprocess import call
+logging.basicConfig(filename='processed_genes.log', format='%(message)s', level=logging.DEBUG)
 
 if __name__== "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("pdbid", help="PDBID", type=str)
     parser.add_argument("oncogene_chain", help="oncogene chain", type=str)
+    parser.add_argument("--filter_genes", default="")
     #parser.add_argument("peptide_chain", help="peptide chain", type=str)
     args = parser.parse_args()
-    for other in iterate_over_pairs(pdbid, oncogene_chain):
-        info = getPairInformation(pdbid, oncogene_chain, other)
+    if len(args.filter_genes)>0:
+        doFilter(args.filter_genes.split(","))
+        exit()
+        
+    for other in iterate_over_pairs(args.pdbid, args.oncogene_chain):
+        info = getPairInformation(args.pdbid, args.oncogene_chain, other)
         #info = getPairInformation("2OSL", "L", "H")
         renderTemplate("structure_view.pml.mustache", info)
