@@ -1,3 +1,18 @@
+"""
+If run:
+
+```
+python3 structure_processor.py "" "" --filter_genes "TP53"
+```
+saves to different files data for gene named "TP53" (this parameter can be comma-separated list of gene names).
+Saves to pictures/ fragments if they are found.
+Otherwise saves to different files.
+after processing saves to "processed_genes.log" gene names from parameter list. 
+To rerun with the same gene list, remove lines corresponding to names from this file or remove the whole file - 
+currently it is used to skip gene names which were already processed.
+
+Another call option might be incorrect now.
+"""
 from bioservices.kegg import KEGG
 keggParser = KEGG()
 
@@ -51,6 +66,7 @@ def getKeggInfoForGene(organism, gene_name):
             pickle.dump(keggCache, f)  
         return pdbIds, geneIdByPDB, uniprotIdsByGene, aaSequencesByGene, pdbIdsByGene
 
+prody.LOGGER.verbosity = "none"
 
 def getGeneAssociatedPDBStructures(organism, gene_name):
     (pdbIds, geneIdByPDB, uniprotIdsByGene) = getKeggInfoForGene(organism, gene_name)
@@ -104,8 +120,8 @@ def get_reference_chain(pdbid, geneIds):
             ]
         if len(uniprotRef) < 1:
             continue
-        print(uniprotRef, uniprotIdDict)
-        if len(set(uniprotRef) & set(uniprotIdDict)) > 0:
+        # print(uniprotRef, uniprotIdDict)
+        if len(set(uniprotRef) & uniprotIdDict) > 0:
             return polymer.chid
     return None
 
@@ -162,6 +178,7 @@ def check_condition(pdbid, ref_chid, other_chid, bonds1=5, bonds2=2.5):
     (pdbid, ref, res_ref_no, pair_chain, pair_res_no, sulfur_pairs) = getPairInformation(
         pdbid, ref_chid, other_chid, bonds1, bonds2) 
     if len(res_ref_no) < 0 and len(pair_res_no) < 0:
+        print(111)
         return False, (pdbid, ref, res_ref_no, pair_chain, pair_res_no, sulfur_pairs)
     if len(sulfur_pairs) < 0:
         return False, None
@@ -224,15 +241,45 @@ def renderTemplate(template, info):
             lines.append(s)
     if not os.path.exists("pictures"):
         os.mkdir("pictures")
-    image = os.path.join("pictures"+reference+"_"+pair_chain+".pml")
+    image = os.path.join("pictures", reference+"_"+pair_chain+".pml")
     with open(image, 'w') as f:
         for line in lines:
             f.write(line)
-    cmd([" ".join(["pymol -c", "pictures"+reference+"_"+pair_chain+".pml"])])
+    cmd([" ".join(["pymol -c", "pictures/"+reference+"_"+pair_chain+".pml"])])
     pass
 
 
+def appendToNotebook(template, info, gene_name):
+    """
+    saves pymol script to pictures.
+    if run from current folder, this scripts saves pdb id to file.
+    """
+    renderer = pystache.Renderer()
+    lines = []
+    (pdbid, reference, ref_selection, pair_chain, pair_selection, sulfur_pairs) = info
+    with open(template, 'r') as k:
+        for i  in k.readlines():
+            s = renderer.render(i, {
+                'pdbid': pdbid,
+                'onco_chain': reference,
+                'peptide_chain': pair_chain,
+                'onco_resnum': "+".join(map(str, ref_selection)), 
+                'peptide': '+'.join(map(str, pair_selection)),
+                'pept_cys': '+'.join(map(lambda x: str(x[1]), sulfur_pairs))
+                })
+            lines.append(s)
+    if not os.path.exists("notebooks"):
+        os.mkdir("notebooks")
+    image = os.path.join("notebooks", gene_name+".ipynb")
+   
+    with open(image, 'a') as f:
+        for line in lines:
+            f.write(line)
+    #cmd([" ".join(["pymol -c", "pictures"+reference+"_"+pair_chain+".pml"])])
+    pass
+
 def doFilter(geneNames, b1=5, b2=2.5):
+    genesToReturn = []
     if os.path.exists("processed_genes.log"):
         with open("processed_genes.log") as f:
             processedGenes = set([line.strip() for line in f])
@@ -242,17 +289,17 @@ def doFilter(geneNames, b1=5, b2=2.5):
     gene_info_file = "gene_name_to_gene_ids_pdb_ids_filtered_by_cys.pickle"
     if not os.path.exists(gene_info_file):
         print("File %s couldn't be found" % gene_info_file)
-        return exit(1)
+        return
     genes = pickle.load(open(gene_info_file, "rb"))
     set_pdb =  pickle.load(open('set_pdb.pickle', 'rb'))
     
     for gene_name in geneNames:
         if gene_name in processedGenes:
             continue
-        print(gene_name)
+        #print(gene_name)
         (geneIds, pdbIds) = genes[gene_name]
         downloaded = downloadPdbList(pdbIds)
-        print(len(downloaded))
+        #print(len(downloaded))
         with open("unavailable_pdb_list.txt", 'a') as f:
             for pdbid in (set(pdbIds) - set(downloaded)):
                 f.write("%s\n"% pdbid)
@@ -267,7 +314,7 @@ def doFilter(geneNames, b1=5, b2=2.5):
                 with open("bad_pdb_for_gene_list.txt", 'a') as g:
                     g.write(gene_name + " " + pdbid + "\n")
                 continue # skip if there is no UniProt
-            print(11111)
+
             no_contacts = True
             for (ref, other) in iterate_over_pairs(pdbid, chid):
                 condition, interface_info = check_condition(pdbid, ref, other, b1, b2)
@@ -279,23 +326,81 @@ def doFilter(geneNames, b1=5, b2=2.5):
                         pdbid, ref, other, str(b1), str(b2)
                         ])+"\n")
                     renderTemplate("structure_view.pml.mustache", interface_info)
+                    appendToNotebook("notebook.ipynb.mustache", interface_info, gene_name)
             if no_contacts:
                 with open("no_contacts_with_gene.txt", 'a') as g:
-                    g.write(gene_name + " " + pdbid +" " + chid+ + "\n")
+                    g.write(gene_name + " " + pdbid + " " + chid+ "\n")
         if has_results:
-            print("gene", gene_name, "has some Cys related things") 
+            print("gene", gene_name, "has some Cys related things")
+            genesToReturn.append(gene_name)
         else: 
             print("no results for gene", gene_name)           
         # add to already processed list
         #logging.debug(gene_name)
         with open("processed_genes.log", 'a') as f:
             f.write(gene_name+"\n")
+    if len(genesToReturn) > 0:
+        return genesToReturn
     pass
     
     
 from subprocess import call
 logging.basicConfig(filename='processed_genes.log', format='%(message)s', level=logging.DEBUG)
 
+
+def parse():
+    """temporary to save kegg values"""
+    gene_info_file = "gene_name_to_gene_ids_pdb_ids_filtered_by_cys.pickle"
+    if not os.path.exists(gene_info_file):
+        print("File %s couldn't be found" % gene_info_file)
+        return exit(1)
+    genes = pickle.load(open(gene_info_file, "rb"))
+    keggIds = list(set([y for x in genes.values() for y in x[0]]))
+    i = 0
+    while i < len(keggIds):
+        res = keggParser.get("+".join(keggIds[i: min(i+20, len(keggIds))]))
+        i+=20
+        with open("keggoutput.txt", 'a') as f:
+            f.write(res+"\n")
+    #print(kegg.parse(res))
+    pass
+    
+def process():
+    entry = None
+    ids = set()
+    inDBLINKS = False
+    keggToUniprot = dict()
+    with open("keggoutput.txt") as f:
+        for line in f:
+            if line.startswith("ENTRY"):
+                entry = "hsa:"+line.split()[1]
+                if inDBLINKS and entry is not None:
+                    keggToUniprot[entry] = list(ids)
+                    entry = None
+                continue
+            if line.startswith("DBLINKS"):
+                if line.strip().split()[1].startswith("UniProt"):
+                    ids |= set(line.strip().split()[2:])
+                inDBLINKS = True
+                continue
+            if line.startswith(' '):
+                if inDBLINKS:
+                    #print(line.strip().split()[0])
+                    if line.strip().split()[0].startswith("UniProt"):
+                        print(line.strip().split()[1:])
+                        ids |= set(line.strip().split()[1:])
+                    pass
+            else:
+                inDBLINKS = False
+                if entry is not None:
+                    keggToUniprot[entry] = list(ids)
+                    entry = None
+    with open("keggToUniprot.pickle", "wb") as f:
+        pickle.dump(keggToUniprot, f)
+    #print( keggToUniprot)
+        
+            
+    
 if __name__== "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("pdbid", help="PDBID", type=str)
